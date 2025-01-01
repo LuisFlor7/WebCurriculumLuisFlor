@@ -3,25 +3,18 @@ import Carousel from 'react-bootstrap/Carousel';
 var heroData = [
   {
     id: 1,
-    image: require('../assets/images/img-hero1.jpg'),
-    title: 'The perfect design for your website',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
+    image: require('../assets/images/vineyard (5).jpg'),
+    title: 'Una forma de vida',
+    description: 'Conoce la rica cultura de nuestra zona disfrutando de la viticultura',
     link: 'https://www.google.com'
   },
   {
     id: 2,
-    image: require('../assets/images/img-hero2.jpg'),
-    title: 'Start Your Future Financial Plan',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
+    image: require('../assets/images/vineyard (3).jpg'),
+    title: 'Una gran familia',
+    description: 'Los eventos vividos y el disfrute hacen que nuestros socios se sientan parte de una gran familia',
     link: 'https://www.facebook.com'
   },
-  {
-    id: 3,
-    image: require('../assets/images/img-hero3.jpg'),
-    title: 'Enjoy the Difference',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
-    link: 'https://www.twitter.com'
-  }
 ]
 
 function AppHero() {
@@ -40,7 +33,6 @@ function AppHero() {
                   <Carousel.Caption>
                     <h2>{hero.title}</h2>
                     <p>{hero.description}</p>
-                    <a className="btn btn-primary" href={hero.link}>Learn More <i className="fas fa-chevron-right"></i></a>
                   </Carousel.Caption>             
                 </Carousel.Item>
               );

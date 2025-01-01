@@ -8,9 +8,9 @@ const worksData = [
   {
     id: 1,
     link: 'https://www.google.com',
-    image: require('../assets/images/img2.jpg'),
-    title: 'Lonely Path',
-    subtitle: 'Web Design'
+    image: require('../assets/images/lustau1.jpg'),
+    title: 'Cata con Lustau',
+    subtitle: 'Dirigida por Sergio Martínez'
   },
   {
     id: 2,
@@ -85,8 +85,8 @@ function AppWorks() {
     <section id="works" className="block works-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Our works</h2>
-          <div className="subtitle">our awesome works</div>
+          <h2>Eventos</h2>
+          <div className="subtitle">Bienvenidos a nuestros eventos realizados</div>
         </div>
         <Row className='portfoliolist'>
           {
@@ -95,7 +95,7 @@ function AppWorks() {
                 <Col sm={4} key={works.id}>
                   <div className='portfolio-wrapper'>
                     <a href={works.link}>
-                      <Image src={works.image} />
+                      <Image className='imgs' src={works.image} />
                       <div className='label text-center'>
                         <h3>{works.title}</h3>
                         <p>{works.subtitle}</p>

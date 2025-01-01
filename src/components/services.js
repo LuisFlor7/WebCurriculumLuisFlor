@@ -5,39 +5,39 @@ import Col from 'react-bootstrap/Col';
 const servicesData = [
   {
     id: 1,
-    icon: 'fas fa-clone',
-    title: 'Responsive Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fas fa-wine-glass',
+    title: 'Catas de vinos de la tierra',
+    description: 'Vinos de las denominaciones de origen Jerez-Xerez-Sherry, Manzanilla de Sanlúcar, Brandy de Jerez y la IGP Vinos de la Tierra de Cádiz.'
   },
   {
     id: 2,
-    icon: 'fas fa-snowflake',
-    title: 'Creative Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fas fa-wine-glass-empty',
+    title: 'Catas de vinos de España',
+    description: 'Vinos de denominaciones de origen Cava, Jumilla, Ribera, Rioja, Rueda, etc.'
   },
   {
     id: 3,
-    icon: 'fas fa-plug',
-    title: 'SEO Optimized',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fas fa-wine-bottle',
+    title: 'Catas de vinos internacionales',
+    description: 'Vinos de denominaciones de origen internacionales como Porto, Champagne, etc.'
   },
   {
     id: 4,
-    icon: 'fas fa-desktop',
-    title: 'Retina Ready',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fas fa-utensils',
+    title: 'Catas maridadas',
+    description: 'Acompañamos las catas de vino con lo mejor de nuestra gastronomía local.'
   },
   {
     id: 5,
-    icon: 'fas fa-trophy',
-    title: 'Brower Compatibility',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fas fa-people-group',
+    title: 'Club social',
+    description: 'La Sociedad Jerezana del Vino actúa como club social al reservarse el derecho de admisión de sus socios, asegurando una experiencia más cercana y enriquecedora.'
   },
   {
     id: 6,
-    icon: 'fas fa-life-ring',
-    title: 'Customer Support',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fas fa-microphone',
+    title: 'Divulgación vitivinícola',
+    description: 'Las catas van acompañadas de divulgación científica e histórica impartida por expertos vitivinícolas.'
   }
 ]
 
@@ -46,8 +46,8 @@ function AppServices() {
     <section id="services" className="block services-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Our services</h2>
-          <div className="subtitle">services we provide</div>
+          <h2>Servicios</h2>
+          <div className="subtitle">Conoce nuestros servicios</div>
         </div>
         <Row>
           {

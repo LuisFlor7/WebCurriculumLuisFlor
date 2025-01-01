@@ -14,6 +14,11 @@ html {
   padding: 0;
 }
 
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
 body {
   color: #333;
   background: #fff;
@@ -71,7 +76,7 @@ p {
 }
 
 a {
-  color: #f64b4b;
+  color: #0a8012;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -131,12 +136,12 @@ ul,
 }
 
 .content-block ul li a:hover {
-  color: #f64b4b;
+  color: #0a8012;
 }
 
 .btn.btn-primary {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #0a8012;
+  border-color: #0a8012;
   padding: 13px 35px;
   font-size: 14px;
   line-height: 18px;
@@ -149,8 +154,8 @@ ul,
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
   background: #fff;
-  border-color: #f64b4b;
-  color: #f64b4b;
+  border-color: #0a8012;
+  color: #0a8012;
 }
 
 .btn.btn-primary .fas {
@@ -284,7 +289,7 @@ textarea {
   width: 35px;
   height: 35px;
   background: #fff;
-  color: #f64b4b;
+  color: #0a8012;
   border-radius: 50%;
   display: block;
   text-align: center;
@@ -294,7 +299,7 @@ textarea {
 }
 
 .socials a:hover {
-  background: #f64b4b;
+  background: #0a8012;
   color: #fff;
 }
 
@@ -313,7 +318,7 @@ textarea {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #f64b4b;
+  background: #0a8012;
   border-radius: 3px;
   color: #fff;
   border: 0;
@@ -339,31 +344,31 @@ textarea {
 }
 
 .pagination>li.active a {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #0a8012;
+  border-color: #0a8012;
 }
 
 .pagination>li.active a:hover {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #0a8012;
+  border-color: #0a8012;
 }
 
 .pagination>li>a {
-  color: #f64b4b;
+  color: #0a8012;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   padding: 6px 15px 12px;
 }
 
 .pagination>li>a:hover {
-  background: #f64b4b;
+  background: #0a8012;
   color: #fff;
-  border-color: #f64b4b;
+  border-color: #0a8012;
 }
 
 .pagetitle {
   margin: 80px 0 0;
-  background: #f64b4b;
+  background: #0a8012;
   color: #fff;
   padding: 50px 0;
 }
@@ -395,7 +400,7 @@ textarea {
 }
 
 #header .navbar-brand {
-  color: #f64b4b;
+  color: #0a8012;
   text-transform: uppercase;
   font-weight: 600;
   height: auto;
@@ -425,7 +430,7 @@ textarea {
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
   background: none;
-  color: #f64b4b;
+  color: #0a8012;
 }
 
 #header .navbar-collapse a:hover:before,
@@ -437,7 +442,7 @@ textarea {
 
 #header .navbar-collapse a:before {
   content: '';
-  background: #f64b4b;
+  background: #0a8012;
   height: 1px;
   position: absolute;
   bottom: 7px;
@@ -449,7 +454,7 @@ textarea {
 }
 
 #footer {
-  background: #f64b4b;
+  background: #0a8012;
   padding: 50px 0;
   color: #fff;
   text-align: center;
@@ -484,6 +489,8 @@ textarea {
 
 .hero-block .carousel-item img {
   width: 100%;
+  height: 400px;
+  
 }
 
 .hero-block .carousel-caption {
@@ -509,7 +516,7 @@ textarea {
 }
 
 .about-block .progress-bar {
-  background-color: #f64b4b;
+  background-color: #0a8012;
   -webkit-transition: width 0.3s linear;
   transition: width 0.3s linear;
 }
@@ -518,7 +525,7 @@ textarea {
   width: 60px;
   height: 60px;
   font-size: 26px;
-  color: #f64b4b;
+  color: #0a8012;
   margin: 0 0 20px;
   display: inline-block;
   vertical-align: middle;
@@ -552,7 +559,7 @@ textarea {
 }
 
 .services-block .holder:hover .icon {
-  box-shadow: inset 0 0 0 30px #f64b4b;
+  box-shadow: inset 0 0 0 30px #0a8012;
   color: #fff;
   font-size: 18px;
 }
@@ -584,7 +591,7 @@ textarea {
 
 .works-block .portfoliolist>div h3 {
   margin: 0 0 5px;
-  color: #f64b4b;
+  color: #0a8012;
   font-size: 16px;
 }
 
@@ -620,8 +627,8 @@ textarea {
 }
 
 .works-block .pagination .page-item.active .page-link {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #0a8012;
+  border-color: #0a8012;
 }
 
 .works-block .pagination .page-item .page-link {
@@ -680,7 +687,7 @@ textarea {
   background-position: 50% 0;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url('assets/images/bg-testimonial.jpg');
+  background-image: url('assets/images/vino (2).jpg');
   position: relative;
   color: #fff;
 }
@@ -742,7 +749,7 @@ textarea {
 }
 
 .testimonials-block .carousel-indicators .active {
-  background: #f64b4b;
+  background: #0a8012;
 }
 
 .pricing-block .row {
@@ -783,7 +790,7 @@ textarea {
 
 .pricing-block div[class*="col"]:nth-child(2) .heading {
   padding: 30px 20px;
-  background: #f64b4b;
+  background: #0a8012;
   color: #fff;
 }
 
@@ -793,7 +800,7 @@ textarea {
   position: absolute;
   top: 40px;
   left: 40px;
-  background: #f76363;
+  background: #0a8012;
   color: #fff;
   padding: 5px 10px;
   transform: translateX(-50%) translateY(-50%) rotate(-45deg);
@@ -874,7 +881,7 @@ textarea {
 
 .blog-block .card-title {
   margin: 0 0 10px;
-  color: #f64b4b;
+  color: #0a8012;
   font-size: 22px;
 }
 
@@ -902,7 +909,7 @@ textarea {
 }
 
 .blog-block .meta .category a:hover {
-  color: #f64b4b;
+  color: #0a8012;
 }
 
 .contact-block {
@@ -949,7 +956,7 @@ textarea {
   display: block;
   font-size: 40px;
   margin: 0 0 15px;
-  color: #f64b4b;
+  color: #0a8012;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1021,6 +1028,11 @@ textarea {
   .works-block .portfoliolist>div .label {
     height: 50px;
   }
+}
+
+.imgs {
+  width:370px;
+  height:220px;
 }
 
 @media only screen and (max-width: 767px) {

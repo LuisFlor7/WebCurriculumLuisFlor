@@ -2,41 +2,31 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 
-import img1 from '../assets/images/img1.jpg';
+import img1 from '../assets/images/vino (1).jpg';
+import img2 from '../assets/images/foto (6).jpg';
 
 function AppAbout() {
-  const html = 80;
-  const responsive = 95;
-  const photoshop = 60;
 
   return (
     <section id="about" className="block about-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>About Us</h2>
-          <div className="subtitle">learn more about us</div>
+          <h2>La Sociedad</h2>
+          <div className="subtitle">Una forma de vida</div>
         </div>
         <Row>
-          <Col sm={6}>
-            <Image src={img1} />
+          <Col sm={3}>
+            <Image style={{height:'360px'}} 
+              src={img1} />
+          </Col>
+          <Col sm={3}>
+            <Image style={{height:'360px'}} 
+              src={img2} />
           </Col>
           <Col sm={6}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
-            <div className='progress-block'>
-              <h4>HTML / CSS / Javascript</h4>
-              <ProgressBar now={html} label={`${html}%`} />
-            </div>
-            <div className='progress-block'>
-              <h4>responsive</h4>
-              <ProgressBar now={responsive} label={`${responsive}%`} />
-            </div>
-            <div className='progress-block'>
-              <h4>Photoshop</h4>
-              <ProgressBar now={photoshop} label={`${photoshop}%`} />
-            </div>
+            <p><strong>La Sociedad Jerezana del Vino</strong> es una organización sin ánimo de lucro con sede en Jerez de la Frontera, cuyo objetivo es promover la cultura del vino, especialmente la de las denominaciones de origen Jerez-Xerez-Sherry, Manzanilla de Sanlúcar, Brandy de Jerez y la IGP Vinos de la Tierra de Cádiz. Su labor incluye la divulgación de la cultura vitivinícola a través de actividades formativas y eventos, enfocándose en el consumo responsable y el maridaje con la gastronomía local.</p>
+            <p>Desde su creación, ha organizado más de cien catas, tres Desafíos Cata a Ciegas, y eventos como el I Encuentro de Vinos Andaluces y el Salón del Magnum. También colabora con importantes eventos como la Fiesta de la Vendimia de Jerez, la Semana del Brandy, la Feria del Caballo de Jerez y el Salón Vinoble.</p>
           </Col>
         </Row>
       </Container>

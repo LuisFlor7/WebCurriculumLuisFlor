@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
 
+
 var testimonialsData = [
   {
     id: 1,
@@ -27,8 +28,8 @@ function AppTestimonials() {
     <section id="testimonials" className="testimonials-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Client testimonials</h2>
-          <div className="subtitle">what client says about us</div>
+          <h2>Reseñas</h2>
+          <div className="subtitle">Testimonios de nuestros socios</div>
         </div>
         <Carousel controls={false}>
           {

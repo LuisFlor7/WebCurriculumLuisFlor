@@ -8,7 +8,6 @@ import AppServices from './components/services';
 import AppWorks from './components/works';
 import AppTeams from './components/teams';
 import AppTestimonials from './components/testimonials';
-import AppPricing from './components/pricing';
 import AppBlog from './components/blog';
 import AppContact from './components/contact';
 import AppFooter from './components/footer';
@@ -26,7 +25,6 @@ function App() {
         <AppWorks />
         <AppTeams />
         <AppTestimonials />
-        <AppPricing />
         <AppBlog />
         <AppContact />
       </main>
