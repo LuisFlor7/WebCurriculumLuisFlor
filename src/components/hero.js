@@ -4,14 +4,20 @@ var heroData = [
   {
     id: 1,
     image: require('../assets/images/vineyard (5).jpg'),
-    title: 'Viticultura sostenible',
-    description: 'Una visión sostenible del cultivo de la vid y el vino',
+    title: 'Aiming to a sustainable viticulture',
+    description: 'Exploring eco-friendly practices in vineyard management',
   },
   {
     id: 2,
     image: require('../assets/images/vineyard (3).jpg'),
-    title: 'Fsiología de la vid',
-    description: 'Especializado en el funcionamiento de la vid',
+    title: 'Grapevine Physiology',
+    description: 'Understanding grapevine physiology under climate change scenarios for a better vineyard management',
+  },
+  {
+    id: 3,
+    image: require('../assets/images/coding.jpg'),
+    title: 'Full-Stack Developer',
+    description: 'App and Web development services. Expert in React, Node.js, and more',
   },
 ]
 

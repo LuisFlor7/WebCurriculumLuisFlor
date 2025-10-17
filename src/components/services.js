@@ -46,8 +46,8 @@ function AppServices() {
     <section id="services" className="block services-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Servicios</h2>
-          <div className="subtitle">Conoce nuestros servicios</div>
+          <h2>Services</h2>
+          <div className="subtitle">Discover my services</div>
         </div>
         <Row>
           {

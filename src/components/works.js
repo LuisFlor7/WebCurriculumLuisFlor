@@ -2,91 +2,31 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Pagination from 'react-bootstrap/Pagination';
 
 const worksData = [
   {
     id: 1,
-    link: 'https://www.google.com',
-    image: require('../assets/images/lustau1.jpg'),
-    title: 'Cata con Lustau',
-    subtitle: 'Dirigida por Sergio Martínez'
+    link: 'https://academic.oup.com/jxb/article-abstract/76/11/3141/7998390',
+    image: require('../assets/images/Impact.jpg'),
+    title: 'Impact of severe water stress on drought..',
+    subtitle: 'Journal of Experimental Botany'
   },
   {
     id: 2,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img3.jpg'),
-    title: 'Photographer Girl',
-    subtitle: 'Branding'
+    link: 'https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1541523',
+    image: require('../assets/images/Frontiers.jpg'),
+    title: 'Implications of root morphology..',
+    subtitle: 'Frontiers in Plant Science'
   },
-  {
-    id: 3,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img4.jpg'),
-    title: 'The Difference',
-    subtitle: 'Web Design'
-  },
-  {
-    id: 4,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img5.jpg'),
-    title: 'Nature Patterns',
-    subtitle: 'Branding'
-  },
-  {
-    id: 5,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img6.jpg'),
-    title: 'The Difference',
-    subtitle: 'Photography'
-  },
-  {
-    id: 6,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img7.jpg'),
-    title: 'Winter Sonata',
-    subtitle: 'Web Design'
-  },
-  {
-    id: 7,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img8.jpg'),
-    title: 'Lonely Path',
-    subtitle: 'Branding'
-  },
-  {
-    id: 8,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img9.jpg'),
-    title: 'Appreciation',
-    subtitle: 'Photography'
-  },
-  {
-    id: 9,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img2.jpg'),
-    title: 'Happy Days',
-    subtitle: 'Web Design'
-  }
 ]
-
-let active = 2;
-let items = [];
-for (let number = 1; number <= 5; number++) {
-  items.push(
-    <Pagination.Item key={number} active={number === active}>
-      {number}
-    </Pagination.Item>,
-  );
-}
 
 function AppWorks() {
   return (
     <section id="works" className="block works-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Eventos</h2>
-          <div className="subtitle">Bienvenidos a nuestros eventos realizados</div>
+          <h2>Scientific articles</h2>
+          <div className="subtitle">Check out my latest scientific articles</div>
         </div>
         <Row className='portfoliolist'>
           {
@@ -107,7 +47,6 @@ function AppWorks() {
             })
           }
         </Row>
-        <Pagination>{items}</Pagination>
       </Container>  
     </section>
   );
