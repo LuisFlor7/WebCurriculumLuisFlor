@@ -6,31 +6,31 @@ const servicesData = [
   {
     id: 1,
     icon: 'fas fa-wine-glass',
-    title: 'Catas de vinos de la tierra',
-    description: 'Vinos de las denominaciones de origen Jerez-Xerez-Sherry, Manzanilla de Sanlúcar, Brandy de Jerez y la IGP Vinos de la Tierra de Cádiz.'
+    title: 'Asesoría integral de la explotación',
+    description: 'Asesoría completa. Desde la selección de las vides a los tratamientos de riego.'
   },
   {
     id: 2,
     icon: 'fas fa-wine-glass-empty',
-    title: 'Catas de vinos de España',
+    title: 'Aumento del rendimiento',
     description: 'Vinos de denominaciones de origen Cava, Jumilla, Ribera, Rioja, Rueda, etc.'
   },
   {
     id: 3,
     icon: 'fas fa-wine-bottle',
-    title: 'Catas de vinos internacionales',
+    title: 'Selección del material vegetal óptimo',
     description: 'Vinos de denominaciones de origen internacionales como Porto, Champagne, etc.'
   },
   {
     id: 4,
     icon: 'fas fa-utensils',
-    title: 'Catas maridadas',
+    title: 'Seguimiento',
     description: 'Acompañamos las catas de vino con lo mejor de nuestra gastronomía local.'
   },
   {
     id: 5,
     icon: 'fas fa-people-group',
-    title: 'Club social',
+    title: 'Cursos de formación',
     description: 'La Sociedad Jerezana del Vino actúa como club social al reservarse el derecho de admisión de sus socios, asegurando una experiencia más cercana y enriquecedora.'
   },
   {

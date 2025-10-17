@@ -42,11 +42,7 @@ function AppContact() {
           <ul>
             <li>
               <i className="fas fa-envelope"></i>
-              info@sociedadjerezanadelvino.org
-            </li>
-            <li>
-              <i className="fas fa-phone"></i>
-              +34 646 517 327
+              LinkedIn (Poner logo clickable Linkedin)
             </li>
             <li>
               <i className="fas fa-map-marker-alt"></i>

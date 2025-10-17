@@ -676,7 +676,7 @@ textarea {
   margin: 0 0 5px;
 }
 
-.teams-block .designation {
+.teams-block .journal {
   display: block;
   font-style: italic;
   margin: 0 0 20px;
@@ -730,12 +730,12 @@ textarea {
   display: block;
 }
 
-.testimonials-block .name {
+.testimonials-block .articleTitle {
   margin: 0;
   text-transform: uppercase;
 }
 
-.testimonials-block .name:before {
+.testimonials-block .articleTitle:before {
   content: '-';
   margin: 0 5px 0 0;
 }
@@ -1128,7 +1128,7 @@ textarea {
     margin: 0 auto 20px;
   }
 
-  .teams-block .designation {
+  .teams-block .journal {
     margin: 0;
   }
 

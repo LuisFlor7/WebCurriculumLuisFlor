@@ -7,113 +7,113 @@ const teamsData = [
   {
     id: 1,
     image: require('../assets/images/team1.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'Gabriel Hart',
-    designation: 'CEO',
+    articleTitle: 'Gabriel Hart',
+    journal: 'CEO',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   },
   {
     id: 2,
     image: require('../assets/images/team2.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'David Antony',
-    designation: 'Manager',
+    articleTitle: 'David Antony',
+    journal: 'Manager',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   },
   {
     id: 3,
     image: require('../assets/images/team3.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'Nicholas Perry',
-    designation: 'UX Designer',
+    articleTitle: 'Nicholas Perry',
+    journal: 'UX Designer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   },
   {
     id: 4,
     image: require('../assets/images/team4.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'Sarah Wills',
-    designation: 'Developer',
+    articleTitle: 'Sarah Wills',
+    journal: 'Developer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   },
   {
     id: 5,
     image: require('../assets/images/team5.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'Sophia Pitt',
-    designation: 'Developer',
+    articleTitle: 'Sophia Pitt',
+    journal: 'Developer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   },
   {
     id: 6,
     image: require('../assets/images/team6.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'Taylor Lopez',
-    designation: 'Developer',
+    articleTitle: 'Taylor Lopez',
+    journal: 'Developer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   },
   {
     id: 7,
     image: require('../assets/images/team7.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'Ryan Giggs',
-    designation: 'Content Writer',
+    articleTitle: 'Ryan Giggs',
+    journal: 'Content Writer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   },
   {
     id: 8,
     image: require('../assets/images/team8.jpg'),
-    fbLink: 'https://www.facebook.com',
+    googleLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
-    name: 'David Smith',
-    designation: 'SEO Expert',
+    articleTitle: 'David Smith',
+    journal: 'SEO Expert',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
   }
 ]
 
 function AppTeams() {
   return (
-    <section id="teams" className="block teams-block">
+    <section id="teams" name="block teams-block">
       <Container fluid>
-        <div className="title-holder">
-          <h2>Our teams</h2>
-          <div className="subtitle">some of our experts</div>
+        <div name="title-holder">
+          <h2>Our scientific articles</h2>
+          <div name="subtitle">Published in high-impact journals</div>
         </div>
         <Row>
           {
             teamsData.map(teams => {
               return (
                 <Col sm={3} key={teams.id}>
-                  <div className='image'>
+                  <div name='image'>
                     <Image src={teams.image} />
-                    <div className='overlay'>
-                      <div className='socials'>
+                    <div name='overlay'>
+                      <div name='socials'>
                         <ul>
-                          <li><a href={teams.fbLink}><i className="fab fa-facebook-f"></i></a></li>
-                          <li><a href={teams.twitterLink}><i className="fab fa-twitter"></i></a></li>
-                          <li><a href={teams.linkedinLink}><i className="fab fa-linkedin-in"></i></a></li>
+                          <li><a href={teams.googleLink}><i name="fab fa-facebook-f"></i></a></li>
+                          <li><a href={teams.twitterLink}><i name="fab fa-twitter"></i></a></li>
+                          <li><a href={teams.linkedinLink}><i name="fab fa-linkedin-in"></i></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <div className='content'>
-                    <h3>{teams.name}</h3>
-                    <span className='designation'>{teams.designation}</span>
+                  <div classarticleTitle='content'>
+                    <h3>{teams.articleTitle}</h3>
+                    <span classarticleTitle='journal'>{teams.journal}</span>
                     <p>{teams.description}</p>
                   </div>
                 </Col>

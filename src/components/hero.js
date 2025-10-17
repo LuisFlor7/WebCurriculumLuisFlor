@@ -4,16 +4,14 @@ var heroData = [
   {
     id: 1,
     image: require('../assets/images/vineyard (5).jpg'),
-    title: 'Una forma de vida',
-    description: 'Conoce la rica cultura de nuestra zona disfrutando de la viticultura',
-    link: 'https://www.google.com'
+    title: 'Viticultura sostenible',
+    description: 'Una visión sostenible del cultivo de la vid y el vino',
   },
   {
     id: 2,
     image: require('../assets/images/vineyard (3).jpg'),
-    title: 'Una gran familia',
-    description: 'Los eventos vividos y el disfrute hacen que nuestros socios se sientan parte de una gran familia',
-    link: 'https://www.facebook.com'
+    title: 'Fsiología de la vid',
+    description: 'Especializado en el funcionamiento de la vid',
   },
 ]
 

@@ -14,16 +14,15 @@ function AppHeader() {
           src={logo}
           alt={"logo"}
           />
-          Sociedad Jerezana del Vino</Navbar.Brand>
+          Luis Flor</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#about">La Sociedad</Nav.Link>
+            <Nav.Link href="#about">Biografía</Nav.Link>
             <Nav.Link href="#services">Servicios</Nav.Link>
-            <Nav.Link href="#works">Eventos</Nav.Link>
-            <Nav.Link href="#teams">Próximos eventos</Nav.Link>
-            <Nav.Link href="#testimonials">Reseñas</Nav.Link>
-            <Nav.Link href="#blog">Prensa</Nav.Link>
+            <Nav.Link href="#works">Artículos científicos</Nav.Link>
+            <Nav.Link href="#teams">Protocolos</Nav.Link>
+            <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#contact">Contáctanos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
