@@ -53,7 +53,7 @@ function AppAbout() {
               fontWeight: "bold",
             }}
           >
-            <FontAwesomeIcon icon={faLaptop} /> Tech & Future Projects
+            <FontAwesomeIcon icon={faLaptop} /> Tech Profile
           </Button>
         </div>
 
