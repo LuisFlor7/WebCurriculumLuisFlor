@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">LF logo with grape cluster</title>
+  <desc id="desc">Modern colorful logo combining the initials LF with a stylized grape cluster and leaf</desc>
+
+  <!-- Background circle with subtle radial gradient -->
+  <defs>
+    <radialGradient id="bgGrad" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#FFF8FF"></stop>
+      <stop offset="40%" stop-color="#F6EBFF"></stop>
+      <stop offset="100%" stop-color="#EDE5FF"></stop>
+    </radialGradient>
+
+    <!-- purple grape gradient -->
+    <linearGradient id="grapeGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9B5DE5"></stop>
+      <stop offset="50%" stop-color="#7B2CBF"></stop>
+      <stop offset="100%" stop-color="#5A189A"></stop>
+    </linearGradient>
+
+    <!-- highlight for grapes -->
+    <radialGradient id="grapeShine" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <!-- green leaf gradient -->
+    <linearGradient id="leafGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7BD389"></stop>
+      <stop offset="100%" stop-color="#34C759"></stop>
+    </linearGradient>
+
+    <!-- subtle drop shadow for cluster -->
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.18"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- background oval -->
+  <rect x="0" y="0" width="600" height="600" rx="40" ry="40" fill="url(#bgGrad)"></rect>
+
+  <!-- large initials LF -->
+  <g transform="translate(40,50)">
+    <!-- 'L' -->
+    <text x="10" y="380" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="360" font-weight="700" fill="#222" letter-spacing="-10">
+      L
+    </text>
+
+    <!-- 'F' -->
+    <text x="220" y="380" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="360" font-weight="700" fill="#222" letter-spacing="-8">
+      F
+    </text>
+  </g>
+
+  <!-- Place grape cluster overlapping the F (right side) -->
+  <g transform="translate(370,170)" filter="url(#softShadow)">
+    <!-- bottom row of grapes -->
+    <g id="cluster">
+      <circle cx="55" cy="160" r="30" fill="url(#grapeGrad)"></circle>
+      <circle cx="95" cy="145" r="30" fill="url(#grapeGrad)"></circle>
+      <circle cx="95" cy="185" r="30" fill="url(#grapeGrad)"></circle>
+      <circle cx="135" cy="160" r="30" fill="url(#grapeGrad)"></circle>
+
+      <!-- middle/top row -->
+      <circle cx="75" cy="120" r="34" fill="url(#grapeGrad)"></circle>
+      <circle cx="115" cy="120" r="34" fill="url(#grapeGrad)"></circle>
+      <circle cx="95" cy="90" r="34" fill="url(#grapeGrad)"></circle>
+
+      <!-- small top grape -->
+      <circle cx="95" cy="60" r="22" fill="url(#grapeGrad)"></circle>
+
+      <!-- highlights -->
+      <circle cx="82" cy="108" r="34" fill="url(#grapeShine)" opacity="0.45"></circle>
+      <circle cx="112" cy="132" r="24" fill="url(#grapeShine)" opacity="0.35"></circle>
+
+      <!-- subtle outlines to give depth -->
+      <g fill="none" stroke="#2E0B3E" stroke-opacity="0.06" stroke-width="1">
+        <circle cx="55" cy="160" r="30"></circle>
+        <circle cx="95" cy="145" r="30"></circle>
+        <circle cx="95" cy="185" r="30"></circle>
+        <circle cx="135" cy="160" r="30"></circle>
+        <circle cx="75" cy="120" r="34"></circle>
+        <circle cx="115" cy="120" r="34"></circle>
+        <circle cx="95" cy="90" r="34"></circle>
+        <circle cx="95" cy="60" r="22"></circle>
+      </g>
+    </g>
+
+    <!-- stem -->
+    <path d="M95 30 C90 40, 80 40, 78 58" fill="none" stroke="#6B3E00" stroke-width="6" stroke-linecap="round"></path>
+
+    <!-- leaf behind cluster -->
+    <path d="M40 20 C 10 -10, -10 40, 40 70 C70 100, 110 70, 100 40 C95 25, 70 10, 40 20 Z" transform="translate(-30,-20) rotate(-10 40 20)" fill="url(#leafGrad)" stroke="#2E8B46" stroke-width="3" opacity="0.98"></path>
+  </g>
+
+  <!-- Integrate cluster with F by adding a colorful accent to F's crossbar -->
+  <g>
+    <rect x="300" y="230" width="140" height="28" rx="6" fill="url(#grapeGrad)" opacity="0.95" transform="rotate(-2 370 244)"></rect>
+    <rect x="310" y="270" width="90" height="18" rx="5" fill="url(#leafGrad)" opacity="0.95" transform="rotate(-2 355 279)"></rect>
+  </g>
+
+  <!-- small tagline -->
+  <text x="40" y="565" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="18" fill="#444">
+    Luis Flor — Vine physiology &amp; data-driven viticulture
+  </text>
+</svg>

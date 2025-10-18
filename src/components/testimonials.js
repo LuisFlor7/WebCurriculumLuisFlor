@@ -5,9 +5,9 @@ import Carousel from 'react-bootstrap/Carousel';
 var testimonialsData = [
   {
     id: 1,
-    name: 'John Wills',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur non earum repudiandae ipsa reprehenderit quaerat, quo a cupiditate, voluptatibus voluptates, dolores nam accusantium error, modi iure itaque totam labore.',
-    designation: 'Manager'
+    name:'Francisco Mayol',
+    description:'"He consistently carried out his work with punctuality, dedication, professionalism, and a strong sense of responsibility. His cheerful and helpful attitude made him a valued member of the team. Moreover, he demonstrated a proactive approach to improving his skills and taking on additional responsibilities within the company. Upon his departure, he left a significant gap among his colleagues"',
+    designation:'Founder & CEO of Cidesal S.L.'
   },
   {
     id: 2,
@@ -28,8 +28,7 @@ function AppTestimonials() {
     <section id="testimonials" className="testimonials-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Reseñas</h2>
-          <div className="subtitle">Testimonios de nuestros socios</div>
+          <h2>References</h2>
         </div>
         <Carousel controls={false}>
           {

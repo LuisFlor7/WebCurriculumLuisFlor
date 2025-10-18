@@ -21,7 +21,7 @@ function AppHeader() {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
             <Nav.Link href="#works">Scientific Articles</Nav.Link>
-            <Nav.Link href="#blog">Developer Projects</Nav.Link>
+            <Nav.Link href="#projects">Developer Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

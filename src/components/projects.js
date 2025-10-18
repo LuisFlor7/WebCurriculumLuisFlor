@@ -18,11 +18,18 @@ const worksData = [
     title: 'Luis Flor personal website',
     subtitle: 'Javascript, React, Bootstrap'
   },
+  {
+    id: 3,
+    link: 'https://github.com/LuisFlor7/HiddenDiamondGameApp',
+    image: require('../assets/images/hiddendiamond.jpg'),
+    title: 'Hidden Diamond Game App',
+    subtitle: 'Javascript, React, SQL'
+  }
 ]
 
 function AppProjects() {
   return (
-    <section id="works" className="block works-block">
+    <section id="projects" className="block works-block">
       <Container fluid>
         <div className="title-holder">
           <h2>Developer Projects</h2>

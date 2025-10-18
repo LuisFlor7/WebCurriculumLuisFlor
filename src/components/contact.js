@@ -13,7 +13,7 @@ function AppContact() {
           <div className="socials">
         <ul>
           <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><i className="fab fa-linkedin-in"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><i className="fas fa-envelope"></i></a></li>
+          <li><a href="mailto:luisflorchacon7@gmail.com"><i className="fas fa-envelope"></i></a></li>
         </ul>
       </div>
       </Container>
