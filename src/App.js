@@ -2,14 +2,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import AppHeader from './components/header';
-import AppHero from './components/hero';
+import AppCarrousel from './components/carrousel';
 import AppAbout from './components/about';
 import AppServices from './components/services';
 import AppWorks from './components/works';
 import AppTestimonials from './components/testimonials';
-import AppBlog from './components/blog';
 import AppContact from './components/contact';
 import AppFooter from './components/footer';
+import AppProjects from './components/projects';
 
 function App() {
   return (
@@ -18,12 +18,12 @@ function App() {
         <AppHeader />
       </header>
       <main>
-        <AppHero />
+        <AppCarrousel />
         <AppAbout />
         <AppServices />
         <AppWorks />
+        <AppProjects />
         <AppTestimonials />
-        <AppBlog />
         <AppContact />
       </main>
       <footer id="footer">

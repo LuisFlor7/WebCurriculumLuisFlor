@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import logo from '../assets/images/logo SJV.jpg';
+import logo from '../assets/images/marca.jpg';
 
 function AppHeader() {
   return (
@@ -22,7 +22,7 @@ function AppHeader() {
             <Nav.Link href="#services">Services</Nav.Link>
             <Nav.Link href="#works">Scientific Articles</Nav.Link>
             <Nav.Link href="#blog">Developer Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact Me</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -24,12 +24,6 @@ function AppFooter() {
   return (
     <Container fluid>
       <div className="copyright">&copy; Luis Flor. All rights reserved.</div>
-      <div className="socials">
-        <ul>
-          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><i className="fab fa-linkedin-in"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><i className="fas fa-envelope"></i></a></li>
-        </ul>
-      </div>
       {
         showTopBtn && (
           <div className="go-top" onClick={goTop}></div>

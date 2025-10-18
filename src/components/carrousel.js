@@ -17,11 +17,11 @@ var heroData = [
     id: 3,
     image: require('../assets/images/coding.jpg'),
     title: 'Full-Stack Developer',
-    description: 'App and Web development services. Expert in React, Node.js, and more',
+    description: 'App and Web development services. Expert in React, Javascript, and more',
   },
 ]
 
-function AppHero() {
+function AppCarrousel() {
   return (
     <section id="home" className="hero-block">
        <Carousel>
@@ -47,4 +47,4 @@ function AppHero() {
   );
 }
 
-export default AppHero;
+export default AppCarrousel;

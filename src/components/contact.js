@@ -5,23 +5,17 @@ function AppContact() {
     <section id="contact" className="block contact-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Contact me</h2>
-          <div className="subtitle">I will be more than glad to receive your message</div>
+          <h2>Contact</h2>
+          <div className="subtitle">Glad to receive your message</div>
         </div>
       </Container>
       <Container fluid>
-        <div className='contact-info'>
-          <ul>
-            <li>
-              <i className="fab fa-linkedin-in"></i>
-              Check out my LinkedIn
-            </li>
-            <li>
-              <i className="fas fa-envelope"></i>
-              Send me an e-mail
-            </li>
-          </ul>
-        </div>
+          <div className="socials">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><i className="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><i className="fas fa-envelope"></i></a></li>
+        </ul>
+      </div>
       </Container>
     </section>
   );
