@@ -22,7 +22,7 @@ function AppAbout() {
         <div
           style={{
             textAlign: "center",
-            marginBottom: "30px",
+            marginBottom: "15px",
             display: "flex",
             justifyContent: "center",
             gap: "15px",
