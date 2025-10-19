@@ -5,41 +5,48 @@ import Col from 'react-bootstrap/Col';
 const servicesData = [
   {
     id: 1,
-    icon: 'fas fa-wine-glass',
-    title: 'Asesoría integral de la explotación',
-    description: 'Asesoría completa. Desde la selección de las vides a los tratamientos de riego.'
+    icon: "fas fa-wine-glass",
+    title: "Comprehensive Vineyard Consulting",
+    description:
+      "We offer consulting services covering every stage of vineyard management, from the selection of varieties and rootstocks to irrigation strategies and canopy management. Esuring optimal plant performance and long-term sustainability.",
   },
   {
     id: 2,
-    icon: 'fas fa-wine-glass-empty',
-    title: 'Aumento del rendimiento',
-    description: 'Vinos de denominaciones de origen Cava, Jumilla, Ribera, Rioja, Rueda, etc.'
+    icon: "fas fa-star",
+    title: "Yield Optimization",
+    description:
+      "Through the integration of physiological monitoring, precision agriculture techniques, and tailored management practices. We help maximize grape yield and quality while maintaining the balance between productivity and sustainability.",
   },
   {
     id: 3,
-    icon: 'fas fa-wine-bottle',
-    title: 'Selección del material vegetal óptimo',
-    description: 'Vinos de denominaciones de origen internacionales como Porto, Champagne, etc.'
+    icon: "fas fa-seedling",
+    title: "Selection of Optimal Plant Material",
+    description:
+      "Expert guidance in choosing the most suitable variety and rootstock combinations based on soil properties, climate conditions, and production goals. Ensuring vineyard resilience and consistency in grape quality.",
   },
+
   {
     id: 4,
-    icon: 'fas fa-utensils',
-    title: 'Seguimiento',
-    description: 'Acompañamos las catas de vino con lo mejor de nuestra gastronomía local.'
+    icon: "fas fa-arrow-trend-up",
+    title: "Enhancing Operational Efficiency Through Technological Solutions",
+    description:
+      "We design and implement tailored digital tools that streamline workflows, reduce manual processes, and optimize decision-making across agricultural and industrial enterprises.",
   },
   {
     id: 5,
-    icon: 'fas fa-people-group',
-    title: 'Cursos de formación',
-    description: 'La Sociedad Jerezana del Vino actúa como club social al reservarse el derecho de admisión de sus socios, asegurando una experiencia más cercana y enriquecedora.'
+    icon: "fas fa-laptop",
+    title: "Web and App Development",
+    description:
+      "Development of responsive, user-focused web platforms and mobile applications that integrate seamlessly with your business needs, ensuring scalability, performance, and modern design.",
   },
   {
     id: 6,
-    icon: 'fas fa-microphone',
-    title: 'Divulgación vitivinícola',
-    description: 'Las catas van acompañadas de divulgación científica e histórica impartida por expertos vitivinícolas.'
-  }
-]
+    icon: "fas fa-microphone",
+    title: "Training and Capacity Building",
+    description:
+      "Combining expertise in agriculture and technology, we provide customized training programs that empower professionals to adopt digital tools and data-driven strategies effectively.",
+  },
+];
 
 function AppServices() {
   return (

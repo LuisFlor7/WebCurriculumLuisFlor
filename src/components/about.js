@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLeaf, faLaptop } from "@fortawesome/free-solid-svg-icons";
-import img1 from "../assets/images/vino (1).jpg";
-import img2 from "../assets/images/vino (3).jpg";
-import img3 from "../assets/images/vino (2).jpg";
-import img4 from "../assets/images/vino (4).jpg";
+import img1 from "../assets/images/Lab.jpg";
+import img2 from "../assets/images/Campo.jpg";
+import img3 from "../assets/images/yoylenguajes.jpg";
 
 function AppAbout() {
   const [activeSection, setActiveSection] = useState("scientific");
@@ -61,12 +60,6 @@ function AppAbout() {
         <div className="fade-in">
           {activeSection === "scientific" && (
             <Row>
-              <Col sm={3}>
-                <Image style={{ height: "360px" }} src={img1} />
-              </Col>
-              <Col sm={3}>
-                <Image style={{ height: "360px" }} src={img2} />
-              </Col>
               <Col sm={6}>
                 <p>
                   <strong>Luis Flor</strong> is a biologist from Jerez de la
@@ -91,6 +84,12 @@ function AppAbout() {
                   understanding of the vulnerability of the grapevine vascular
                   system to drought.
                 </p>
+              </Col>
+               <Col sm={3}>
+                <Image style={{ height: "360px" }} src={img1} />
+              </Col>
+              <Col sm={3}>
+                <Image style={{ height: "360px" }} src={img2} />
               </Col>
             </Row>
           )}
@@ -122,11 +121,8 @@ function AppAbout() {
                   methodologies into his programming and analytical workflows.{" "}
                 </p>
               </Col>
-                <Col sm={3}>
-                <Image style={{ height: "360px" }} src={img1} />
-              </Col>
-              <Col sm={3}>
-                <Image style={{ height: "360px" }} src={img2} />
+                <Col sm={6}>
+                <Image style={{ height: "360px" }} src={img3} />
               </Col>
             </Row>
           )}

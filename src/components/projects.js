@@ -32,8 +32,8 @@ function AppProjects() {
     <section id="projects" className="block works-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Developer Projects</h2>
-          <div className="subtitle">Check out my latest developer projects</div>
+          <h2>Portfolio</h2>
+          <div className="subtitle">Check out my latest projects</div>
         </div>
         <Row className='portfoliolist'>
           {
