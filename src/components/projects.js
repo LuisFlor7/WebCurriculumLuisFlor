@@ -6,10 +6,10 @@ import Image from 'react-bootstrap/Image';
 const worksData = [
   {
     id: 1,
-    link: 'https://github.com/LuisFlor7/PokeApiTypes',
-    image: require('../assets/images/pokeapi.png'),
-    title: 'Mobile phone App - PokeAPI',
-    subtitle: 'Next.js, React Native, Typescript'
+    link: 'https://github.com/LuisFlor7/HiddenDiamondGameApp',
+    image: require('../assets/images/hiddendiamond.jpg'),
+    title: 'Hidden Diamond Game App',
+    subtitle: 'Javascript, React, SQL'
   },
   {
     id: 2,
@@ -20,10 +20,10 @@ const worksData = [
   },
   {
     id: 3,
-    link: 'https://github.com/LuisFlor7/HiddenDiamondGameApp',
-    image: require('../assets/images/hiddendiamond.jpg'),
-    title: 'Hidden Diamond Game App',
-    subtitle: 'Javascript, React, SQL'
+    link: 'https://github.com/LuisFlor7/PokeApiTypes',
+    image: require('../assets/images/pokeapi.png'),
+    title: 'Mobile phone App - PokeAPI',
+    subtitle: 'Next.js, React Native, Typescript'
   }
 ]
 
