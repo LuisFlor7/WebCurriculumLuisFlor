@@ -21,7 +21,7 @@ const worksData = [
   {
     id: 3,
     link: 'https://github.com/LuisFlor7/PokeApiTypes',
-    image: require('../assets/images/pokeapi.png'),
+    image: require('../assets/images/pokeapi.jpg'),
     title: 'Mobile phone App - PokeAPI',
     subtitle: 'Next.js, React Native, Typescript'
   }
