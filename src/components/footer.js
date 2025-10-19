@@ -23,7 +23,7 @@ function AppFooter() {
 
   return (
     <Container fluid>
-      <div className="copyright">&copy; Luis Flor. All rights reserved.</div>
+      <div className="copyright">&copy; Luis Flor. Website developed by Luis Flor. All rights reserved.</div>
       {
         showTopBtn && (
           <div className="go-top" onClick={goTop}></div>
