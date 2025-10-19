@@ -78,14 +78,14 @@ function AppAbout() {
                   developed hybrids.
                 </p>
                 <p>
-                  He has published scientific articles in high-impact journals,
-                  several of which have been recognized as Highly Cited
-                  Articles. His studies have contributed to a deeper
-                  understanding of the vulnerability of the grapevine vascular
-                  system to drought.
+                  He has published several scientific articles in high-impact
+                  journals, one of which was recognized as a Highly Cited
+                  Article. His research has significantly advanced the
+                  understanding of grapevine hydraulic system vulnerability
+                  under drought conditions.
                 </p>
               </Col>
-               <Col sm={3}>
+              <Col sm={3}>
                 <Image style={{ height: "360px" }} src={img1} />
               </Col>
               <Col sm={3}>
@@ -121,7 +121,7 @@ function AppAbout() {
                   methodologies into his programming and analytical workflows.{" "}
                 </p>
               </Col>
-                <Col sm={6}>
+              <Col sm={6}>
                 <Image style={{ height: "360px" }} src={img3} />
               </Col>
             </Row>

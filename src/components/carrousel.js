@@ -4,7 +4,7 @@ var heroData = [
   {
     id: 1,
     image: require('../assets/images/vineyard (5).jpg'),
-    title: 'Aiming to a sustainable viticulture',
+    title: 'Aiming for a sustainable viticulture',
     description: 'Exploring eco-friendly practices in vineyard management',
   },
   {
