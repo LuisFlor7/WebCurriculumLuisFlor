@@ -1,4 +1,7 @@
 import Container from 'react-bootstrap/Container';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function AppContact() {
   return (
@@ -12,8 +15,9 @@ function AppContact() {
       <Container fluid>
           <div className="socials">
         <ul>
-          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><i className="fab fa-linkedin-in"></i></a></li>
-          <li><a href="mailto:luisflorchacon7@gmail.com"><i className="fas fa-envelope"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+          <li><a href="mailto:luisflorchacon7@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+          <li><a href="https://github.com/LuisFlor7"><FontAwesomeIcon icon={faGithub} /></a></li>
         </ul>
       </div>
       </Container>
