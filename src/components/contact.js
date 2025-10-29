@@ -15,10 +15,10 @@ function AppContact() {
       <Container fluid>
           <div className="socials">
         <ul>
-          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-          <li><a href="mailto:luisflorchacon7@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-          <li><a href="https://github.com/LuisFlor7"><FontAwesomeIcon icon={faGithub} /></a></li>
-          <li><a href="https://scholar.google.es/citations?user=qbD7KTQAAAAJ&hl=es&oi=ao"><FontAwesomeIcon icon={faMicroscope} /></a></li>
+          <li><a href="https://www.linkedin.com/in/luis-flor-chacon/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+          <li><a href="mailto:luisflorchacon7@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+          <li><a href="https://github.com/LuisFlor7" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+          <li><a href="https://scholar.google.es/citations?user=qbD7KTQAAAAJ&hl=es&oi=ao" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMicroscope} /></a></li>
         </ul>
       </div>
       </Container>

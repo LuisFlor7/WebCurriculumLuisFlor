@@ -221,14 +221,14 @@ textarea {
 }
 
 .socials a {
-  width: 35px;
-  height: 35px;
+  width: 90px;
+  height: 90px;
   background: #fff;
   color: #0a8012;
   border-radius: 50%;
-  display: block;
-  text-align: center;
-  padding: 2px;
+  display: flex;                 /* Cambiado a flex */
+  align-items: center;           /* Centra vertical */
+  justify-content: center;       /* Centra horizontal */
   transition: background 0.3s linear, color 0.3s linear;
   -webkit-transition: background 0.3s linear, color 0.3s linear;
 }
@@ -238,9 +238,11 @@ textarea {
   color: #fff;
 }
 
-.socials .fab {
-  line-height: 2;
+.socials svg {
+  width: 50px;
+  height: 50px;
 }
+
 
 .go-top {
   width: 50px;
@@ -462,7 +464,7 @@ textarea {
   height: 60px;
   font-size: 26px;
   color: #0a8012;
-  margin: 0 0 20px;
+  margin: 10px 0 20px;
   display: inline-block;
   vertical-align: middle;
   border-radius: 50%;

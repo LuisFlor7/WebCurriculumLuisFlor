@@ -34,7 +34,9 @@ function AppWorks() {
               return (
                 <Col sm={4} key={works.id}>
                   <div className='portfolio-wrapper'>
-                    <a href={works.link}>
+                    <a href={works.link}
+                       target="_blank"
+                       rel="noopener noreferrer">
                       <Image className='imgs' src={works.image} />
                       <div className='label text-center'>
                         <h3>{works.title}</h3>
