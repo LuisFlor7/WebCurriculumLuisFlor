@@ -11,7 +11,7 @@ var testimonialsData = [
   },
   {
     id: 2,
-    name:'José Mariano Escalona',
+    name:'Dr. José Mariano Escalona',
     description:'"I hereby state that Mr. Luis Flor Chacón has very satisfactorily fulfilled the objectives and tasks assigned since his incorporation in 2023 into INAGEA as a predoctoral researcher up to the present date. During this period, he has acquired solid expertise in techniques and methodologies applied to plant physiology and has actively participated in research projects, demonstrating a strong ability to work effectively as part of a team. Furthermore, he has been actively involved in knowledge transfer activities, where he has shown excellent communication skills."',
     designation:'President at INAGEA-UIB, University professor'
   }
