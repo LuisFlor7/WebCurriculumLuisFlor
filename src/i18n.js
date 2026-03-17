@@ -4,6 +4,7 @@ import en from './locales/en.json';
 import fr from './locales/fr.json';
 import de from './locales/de.json';
 import it from './locales/it.json';
+import es from './locales/es.json';
 
 i18n
   .use(initReactI18next)
@@ -13,6 +14,7 @@ i18n
       fr: { translation: fr },
       de: { translation: de },
       it: { translation: it },
+      es: { translation: es},
     },
     lng: localStorage.getItem('language') || 'en',
     fallbackLng: 'en',

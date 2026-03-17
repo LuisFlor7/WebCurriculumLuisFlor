@@ -7,12 +7,18 @@ import { faSun, faMoon, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 
 import logo from '../assets/images/marca.jpg';
+import EsFlag from '../locales/flags/España.png';
+import EnFlag from '../locales/flags/Reino Unido.png';
+import FrFlag from '../locales/flags/Francia.png';
+import DeFlag from '../locales/flags/Alemania.png';
+import ItFlag from '../locales/flags/Italia.png';
 
 const languages = [
-  { code: 'en', label: 'EN', flag: '🇬🇧' },
-  { code: 'fr', label: 'FR', flag: '🇫🇷' },
-  { code: 'de', label: 'DE', flag: '🇩🇪' },
-  { code: 'it', label: 'IT', flag: '🇮🇹' },
+  { code: 'en', label: 'EN', flag: 'EnFlag' },
+  { code: 'fr', label: 'FR', flag: 'FrFlag' },
+  { code: 'de', label: 'DE', flag: 'DeFlag' },
+  { code: 'it', label: 'IT', flag: 'ItFlag' },
+  { code: 'es', label: 'ES', flag: 'EsFlag' },
 ];
 
 function AppHeader({ darkMode, toggleDarkMode }) {
@@ -76,7 +82,7 @@ function AppHeader({ darkMode, toggleDarkMode }) {
                     className={`lang-option ${i18n.language === lang.code ? 'active' : ''}`}
                     onClick={() => changeLanguage(lang.code)}
                   >
-                    <span className="lang-flag">{lang.flag}</span>
+                    <img src={lang.flag} alt={lang.label} className="lang-flag" />
                     {lang.label}
                   </button>
                 ))}

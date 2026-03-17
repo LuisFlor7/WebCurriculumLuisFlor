@@ -6,23 +6,37 @@ import { useTranslation } from 'react-i18next';
 const projectsData = [
   {
     id: 1,
-    link: 'https://github.com/LuisFlor7/HiddenDiamondGameApp',
-    image: require('../assets/images/hiddendiamond.jpg'),
+    link: 'https://vinoteca-elegante.luisflorchacon7.workers.dev/',
+    image: require('../assets/images/SJV.jpeg'),
     titleKey: 'projects.p1_title',
-    techs: ['Javascript', 'React', 'SQL']
+    techs: ['Generative IA', 'React', 'Supabase']
   },
   {
     id: 2,
-    link: 'https://github.com/LuisFlor7/WebCurriculumLuisFlor',
-    image: require('../assets/images/web.jpg'),
-    titleKey: 'projects.p2_title',
-    techs: ['Javascript', 'React', 'Bootstrap']
+    link: 'https://visual-spend-cloud.luisflorchacon7.workers.dev',
+    image: require('../assets/images/Finence.jpeg'),
+    titleKey: 'projects.p5_title',
+    techs: ['Generative IA', 'React', 'Supabase']
   },
   {
     id: 3,
+    link: 'https://github.com/LuisFlor7/HiddenDiamondGameApp',
+    image: require('../assets/images/hiddendiamond.jpg'),
+    titleKey: 'projects.p2_title',
+    techs: ['Javascript', 'React', 'SQL']
+  },
+  {
+    id: 4,
+    link: 'https://github.com/LuisFlor7/WebCurriculumLuisFlor',
+    image: require('../assets/images/web.jpg'),
+    titleKey: 'projects.p3_title',
+    techs: ['Javascript', 'React', 'Bootstrap']
+  },
+  {
+    id: 5,
     link: 'https://github.com/LuisFlor7/PokeApiTypes',
     image: require('../assets/images/pokeapi.jpg'),
-    titleKey: 'projects.p3_title',
+    titleKey: 'projects.p4_title',
     techs: ['Next.js', 'React Native', 'Typescript']
   }
 ]

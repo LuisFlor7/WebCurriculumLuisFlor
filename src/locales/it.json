@@ -53,9 +53,11 @@
   "projects": {
     "title": "Portfolio",
     "subtitle": "Scopri i miei ultimi progetti",
-    "p1_title": "App gioco Hidden Diamond",
-    "p2_title": "Sito personale di Luis Flor",
-    "p3_title": "App per cellulare - PokeAPI"
+    "p1_title": "Sociedad Jerezana del Vino Web App",
+    "p2_title": "App gioco Hidden Diamond",
+    "p3_title": "Sito personale di Luis Flor",
+    "p4_title": "App per cellulare - PokeAPI",
+    "p5_title": "App per cellulare - Finence"
   },
   "testimonials": {
     "title": "Referenze",
