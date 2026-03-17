@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "services": "Dienstleistungen",
+    "articles": "Wissenschaftliche Artikel",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "slide1_title": "Für einen nachhaltigen Weinbau",
+    "slide1_desc": "Erforschung umweltfreundlicher Praktiken im Weinbergmanagement",
+    "slide2_title": "Physiologie der Weinrebe",
+    "slide2_desc": "Verständnis der Rebenphysiologie unter Klimawandelszenarien für ein besseres Weinbergmanagement",
+    "slide3_title": "Full-Stack-Entwickler",
+    "slide3_desc": "App- und Webentwicklungsdienste. Experte für React, Javascript und mehr"
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "Ein kontinuierliches Lernen",
+    "scientific_btn": "Wissenschaftliches Profil",
+    "tech_btn": "Technisches Profil",
+    "sci_p1": "<strong>Luis Flor</strong> ist ein Biologe aus Jerez de la Frontera, Spanien, spezialisiert auf <strong>Rebenphysiologie unter Trockenstressbedingungen</strong>.",
+    "sci_p2": "Seit seinem Abschluss an der Universität der Balearen hat er mehrere Jahre der Forschung im Bereich der Rebenphysiologie unter wasserarmen Bedingungen gewidmet. Seine Arbeit konzentrierte sich auf den Vergleich der physiologischen Reaktionen verschiedener Genotypen, darunter emblematische spanische Sorten wie Tempranillo und Garnacha, veredelt auf bekannte kommerzielle Unterlagen wie 110R und 140Ru sowie neu entwickelte Hybriden.",
+    "sci_p3": "Er hat mehrere wissenschaftliche Artikel in hochrangigen Fachzeitschriften veröffentlicht, von denen einer als hochzitierter Artikel anerkannt wurde. Seine Forschung hat das Verständnis der Verwundbarkeit des hydraulischen Systems der Weinrebe unter Trockenstressbedingungen erheblich vorangebracht.",
+    "tech_p1": "<strong>Luis Flor</strong> ist ein Full-Stack-Entwickler und Datenanalyst aus Jerez de la Frontera, Spanien, spezialisiert auf <strong>Front-End- und Back-End-Web- und App-Entwicklung.</strong>",
+    "tech_p2": "Seit seinem Abschluss an der 4Geeks Academy hat er mehrere Jahre der Vertiefung seiner Expertise in Full-Stack-Entwicklung und Datenanalyse gewidmet. Seine Arbeit konzentrierte sich auf den Aufbau dynamischer und responsiver Anwendungen mit Front-End-Technologien wie JavaScript, React, CSS, HTML und Next.js sowie Back-End-Frameworks wie SQL, SQLite und Flask. Darüber hinaus hat Luis seinen wissenschaftlichen Hintergrund mit seinen analytischen Fähigkeiten durch die Nutzung von RStudio für Datenanalyse und Visualisierung kombiniert.",
+    "tech_p3": "Er erweitert derzeit sein Wissen in der Entwicklung künstlicher Intelligenz und integriert KI-gesteuerte Werkzeuge und Methoden in seine Programmier- und Analyse-Workflows."
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "subtitle": "Entdecken Sie meine Dienstleistungen",
+    "s1_title": "Umfassende Weinbergberatung",
+    "s1_desc": "Wir bieten Beratungsdienste für jede Phase des Weinbergmanagements, von der Auswahl der Sorten und Unterlagen bis hin zu Bewässerungsstrategien und Laubwandmanagement. Für optimale Pflanzenleistung und langfristige Nachhaltigkeit.",
+    "s2_title": "Ertragsoptimierung",
+    "s2_desc": "Durch die Integration von physiologischer Überwachung, Präzisionslandwirtschaftstechniken und maßgeschneiderten Managementpraktiken helfen wir, Traubenertrag und -qualität zu maximieren und dabei das Gleichgewicht zwischen Produktivität und Nachhaltigkeit zu wahren.",
+    "s3_title": "Auswahl des optimalen Pflanzenmaterials",
+    "s3_desc": "Fachkundige Beratung bei der Wahl der geeignetsten Sorten-Unterlagen-Kombinationen basierend auf Bodeneigenschaften, klimatischen Bedingungen und Produktionszielen. Für die Widerstandsfähigkeit des Weinbergs und gleichbleibende Traubenqualität.",
+    "s4_title": "Steigerung der betrieblichen Effizienz durch technologische Lösungen",
+    "s4_desc": "Wir entwerfen und implementieren maßgeschneiderte digitale Werkzeuge, die Arbeitsabläufe optimieren, manuelle Prozesse reduzieren und die Entscheidungsfindung in landwirtschaftlichen und industriellen Unternehmen verbessern.",
+    "s5_title": "Web- und App-Entwicklung",
+    "s5_desc": "Entwicklung von responsiven, benutzerzentrierten Webplattformen und mobilen Anwendungen, die sich nahtlos in Ihre Geschäftsanforderungen integrieren und Skalierbarkeit, Leistung und modernes Design gewährleisten.",
+    "s6_title": "Schulung und Kapazitätsaufbau",
+    "s6_desc": "Durch die Kombination von Expertise in Landwirtschaft und Technologie bieten wir maßgeschneiderte Schulungsprogramme, die Fachleuten ermöglichen, digitale Werkzeuge und datengesteuerte Strategien effektiv einzusetzen."
+  },
+  "works": {
+    "title": "Wissenschaftliche Artikel",
+    "subtitle": "Entdecken Sie meine neuesten wissenschaftlichen Artikel",
+    "w1_title": "Auswirkung von schwerem Wasserstress auf Trockenheit..",
+    "w1_subtitle": "Journal of Experimental Botany",
+    "w2_title": "Auswirkungen der Wurzelmorphologie..",
+    "w2_subtitle": "Frontiers in Plant Science"
+  },
+  "projects": {
+    "title": "Portfolio",
+    "subtitle": "Entdecken Sie meine neuesten Projekte",
+    "p1_title": "Hidden Diamond Spiel-App",
+    "p2_title": "Persönliche Website von Luis Flor",
+    "p3_title": "Mobiltelefon-App - PokeAPI"
+  },
+  "testimonials": {
+    "title": "Referenzen",
+    "t1_name": "Francisco Mayol",
+    "t1_text": "\"Er hat seine Arbeit stets mit Pünktlichkeit, Engagement, Professionalität und einem starken Verantwortungsbewusstsein ausgeführt. Seine fröhliche und hilfsbereite Art machte ihn zu einem geschätzten Teammitglied. Darüber hinaus zeigte er einen proaktiven Ansatz zur Verbesserung seiner Fähigkeiten und zur Übernahme zusätzlicher Verantwortlichkeiten im Unternehmen. Bei seinem Abschied hinterließ er eine bedeutende Lücke unter seinen Kollegen\"",
+    "t1_role": "Gründer und CEO von Cidesal S.L.",
+    "t2_name": "Dr. José Mariano Escalona",
+    "t2_text": "\"Ich erkläre hiermit, dass Herr Luis Flor Chacón die zugewiesenen Ziele und Aufgaben seit seiner Eingliederung im Jahr 2023 in INAGEA als Prädoktorand bis zum heutigen Zeitpunkt sehr zufriedenstellend erfüllt hat. Während dieser Zeit hat er solide Expertise in Techniken und Methoden der Pflanzenphysiologie erworben und aktiv an Forschungsprojekten teilgenommen, wobei er eine starke Fähigkeit zur effektiven Teamarbeit bewies. Darüber hinaus war er aktiv an Wissenstransferaktivitäten beteiligt, bei denen er ausgezeichnete Kommunikationsfähigkeiten zeigte.\"",
+    "t2_role": "Präsident der INAGEA-UIB, Universitätsprofessor"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Ich freue mich auf Ihre Nachricht"
+  },
+  "footer": {
+    "copyright": "Luis Flor. Alle Rechte vorbehalten."
+  }
+}

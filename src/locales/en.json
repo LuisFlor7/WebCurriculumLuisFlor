@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "articles": "Scientific Articles",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1_title": "Aiming for a sustainable viticulture",
+    "slide1_desc": "Exploring eco-friendly practices in vineyard management",
+    "slide2_title": "Grapevine Physiology",
+    "slide2_desc": "Understanding grapevine physiology under climate change scenarios for a better vineyard management",
+    "slide3_title": "Full-Stack Developer",
+    "slide3_desc": "App and Web development services. Expert in React, Javascript, and more"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "A continuous learning",
+    "scientific_btn": "Scientific Profile",
+    "tech_btn": "Tech Profile",
+    "sci_p1": "<strong>Luis Flor</strong> is a biologist from Jerez de la Frontera, Spain, specialized in <strong>grapevine physiology under drought conditions</strong>.",
+    "sci_p2": "Since graduating from the University of the Balearic Islands, he has spent several years conducting research in the field of grapevine physiology under water-limited conditions. His work has focused on comparing the physiological responses of different genotypes, including emblematic Spanish varieties such as Tempranillo, and Garnacha, grafted onto well-known commercial rootstocks such as 110R and 140Ru, as well as newly developed hybrids.",
+    "sci_p3": "He has published several scientific articles in high-impact journals, one of which was recognized as a Highly Cited Article. His research has significantly advanced the understanding of grapevine hydraulic system vulnerability under drought conditions.",
+    "tech_p1": "<strong>Luis Flor</strong> is a full-stack developer and data analyst from Jerez de la Frontera, Spain, specializing in <strong>front-end and back-end web and app development.</strong>",
+    "tech_p2": "Since graduating from 4Geeks Academy, he has dedicated several years to advancing his expertise in full-stack development and data analysis. His work has focused on building dynamic and responsive applications using front-end technologies such as JavaScript, React, CSS, HTML, and Next.js, as well as back-end frameworks including SQL, SQLite, and Flask. In addition, Luis has combined his scientific background with his analytical skills through the use of RStudio for data analysis and visualization.",
+    "tech_p3": "He is currently expanding his knowledge in artificial intelligence development, integrating AI-driven tools and methodologies into his programming and analytical workflows."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Discover my services",
+    "s1_title": "Comprehensive Vineyard Consulting",
+    "s1_desc": "We offer consulting services covering every stage of vineyard management, from the selection of varieties and rootstocks to irrigation strategies and canopy management. Ensuring optimal plant performance and long-term sustainability.",
+    "s2_title": "Yield Optimization",
+    "s2_desc": "Through the integration of physiological monitoring, precision agriculture techniques, and tailored management practices. We help maximize grape yield and quality while maintaining the balance between productivity and sustainability.",
+    "s3_title": "Selection of Optimal Plant Material",
+    "s3_desc": "Expert guidance in choosing the most suitable variety and rootstock combinations based on soil properties, climate conditions, and production goals. Ensuring vineyard resilience and consistency in grape quality.",
+    "s4_title": "Enhancing Operational Efficiency Through Technological Solutions",
+    "s4_desc": "We design and implement tailored digital tools that streamline workflows, reduce manual processes, and optimize decision-making across agricultural and industrial enterprises.",
+    "s5_title": "Web and App Development",
+    "s5_desc": "Development of responsive, user-focused web platforms and mobile applications that integrate seamlessly with your business needs, ensuring scalability, performance, and modern design.",
+    "s6_title": "Training and Capacity Building",
+    "s6_desc": "Combining expertise in agriculture and technology, we provide customized training programs that empower professionals to adopt digital tools and data-driven strategies effectively."
+  },
+  "works": {
+    "title": "Scientific articles",
+    "subtitle": "Check out my latest scientific articles",
+    "w1_title": "Impact of severe water stress on drought..",
+    "w1_subtitle": "Journal of Experimental Botany",
+    "w2_title": "Implications of root morphology..",
+    "w2_subtitle": "Frontiers in Plant Science"
+  },
+  "projects": {
+    "title": "Portfolio",
+    "subtitle": "Check out my latest projects",
+    "p1_title": "Hidden Diamond Game App",
+    "p2_title": "Luis Flor personal website",
+    "p3_title": "Mobile phone App - PokeAPI"
+  },
+  "testimonials": {
+    "title": "References",
+    "t1_name": "Francisco Mayol",
+    "t1_text": "\"He consistently carried out his work with punctuality, dedication, professionalism, and a strong sense of responsibility. His cheerful and helpful attitude made him a valued member of the team. Moreover, he demonstrated a proactive approach to improving his skills and taking on additional responsibilities within the company. Upon his departure, he left a significant gap among his colleagues\"",
+    "t1_role": "Founder & CEO of Cidesal S.L.",
+    "t2_name": "Dr. José Mariano Escalona",
+    "t2_text": "\"I hereby state that Mr. Luis Flor Chacón has very satisfactorily fulfilled the objectives and tasks assigned since his incorporation in 2023 into INAGEA as a predoctoral researcher up to the present date. During this period, he has acquired solid expertise in techniques and methodologies applied to plant physiology and has actively participated in research projects, demonstrating a strong ability to work effectively as part of a team. Furthermore, he has been actively involved in knowledge transfer activities, where he has shown excellent communication skills.\"",
+    "t2_role": "President at INAGEA-UIB, University professor"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Glad to receive your message"
+  },
+  "footer": {
+    "copyright": "Luis Flor. All rights reserved."
+  }
+}

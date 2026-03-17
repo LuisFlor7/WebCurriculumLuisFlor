@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "articles": "Articles scientifiques",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1_title": "Vers une viticulture durable",
+    "slide1_desc": "Explorer des pratiques écologiques dans la gestion des vignobles",
+    "slide2_title": "Physiologie de la vigne",
+    "slide2_desc": "Comprendre la physiologie de la vigne face aux scénarios de changement climatique pour une meilleure gestion viticole",
+    "slide3_title": "Développeur Full-Stack",
+    "slide3_desc": "Services de développement d'applications et de sites web. Expert en React, Javascript et plus encore"
+  },
+  "about": {
+    "title": "À propos",
+    "subtitle": "Un apprentissage continu",
+    "scientific_btn": "Profil scientifique",
+    "tech_btn": "Profil technique",
+    "sci_p1": "<strong>Luis Flor</strong> est un biologiste originaire de Jerez de la Frontera, Espagne, spécialisé dans la <strong>physiologie de la vigne en conditions de sécheresse</strong>.",
+    "sci_p2": "Depuis l'obtention de son diplôme à l'Université des Îles Baléares, il a consacré plusieurs années à la recherche dans le domaine de la physiologie de la vigne en conditions hydriques limitées. Ses travaux se sont concentrés sur la comparaison des réponses physiologiques de différents génotypes, incluant des variétés espagnoles emblématiques telles que le Tempranillo et le Garnacha, greffés sur des porte-greffes commerciaux reconnus tels que 110R et 140Ru, ainsi que sur des hybrides nouvellement développés.",
+    "sci_p3": "Il a publié plusieurs articles scientifiques dans des revues à fort impact, dont l'un a été reconnu comme article hautement cité. Ses recherches ont considérablement avancé la compréhension de la vulnérabilité du système hydraulique de la vigne en conditions de sécheresse.",
+    "tech_p1": "<strong>Luis Flor</strong> est un développeur full-stack et analyste de données originaire de Jerez de la Frontera, Espagne, spécialisé dans le <strong>développement web et d'applications front-end et back-end.</strong>",
+    "tech_p2": "Depuis sa formation à la 4Geeks Academy, il a consacré plusieurs années à perfectionner son expertise en développement full-stack et analyse de données. Son travail s'est concentré sur la création d'applications dynamiques et responsives utilisant des technologies front-end telles que JavaScript, React, CSS, HTML et Next.js, ainsi que des frameworks back-end incluant SQL, SQLite et Flask. De plus, Luis a combiné son parcours scientifique avec ses compétences analytiques grâce à l'utilisation de RStudio pour l'analyse et la visualisation de données.",
+    "tech_p3": "Il élargit actuellement ses connaissances en développement d'intelligence artificielle, intégrant des outils et méthodologies basés sur l'IA dans ses flux de travail de programmation et d'analyse."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Découvrez mes services",
+    "s1_title": "Conseil viticole complet",
+    "s1_desc": "Nous offrons des services de conseil couvrant chaque étape de la gestion viticole, de la sélection des variétés et porte-greffes aux stratégies d'irrigation et de gestion de la canopée. Garantissant des performances optimales des plantes et une durabilité à long terme.",
+    "s2_title": "Optimisation du rendement",
+    "s2_desc": "Grâce à l'intégration de la surveillance physiologique, des techniques d'agriculture de précision et des pratiques de gestion adaptées. Nous aidons à maximiser le rendement et la qualité du raisin tout en maintenant l'équilibre entre productivité et durabilité.",
+    "s3_title": "Sélection du matériel végétal optimal",
+    "s3_desc": "Orientation experte dans le choix des combinaisons variété-porte-greffe les plus adaptées en fonction des propriétés du sol, des conditions climatiques et des objectifs de production. Garantissant la résilience du vignoble et la constance de la qualité du raisin.",
+    "s4_title": "Amélioration de l'efficacité opérationnelle par des solutions technologiques",
+    "s4_desc": "Nous concevons et mettons en œuvre des outils numériques sur mesure qui rationalisent les flux de travail, réduisent les processus manuels et optimisent la prise de décision dans les entreprises agricoles et industrielles.",
+    "s5_title": "Développement web et applications",
+    "s5_desc": "Développement de plateformes web responsives et centrées sur l'utilisateur et d'applications mobiles qui s'intègrent parfaitement à vos besoins commerciaux, garantissant évolutivité, performance et design moderne.",
+    "s6_title": "Formation et renforcement des capacités",
+    "s6_desc": "Combinant expertise en agriculture et technologie, nous proposons des programmes de formation personnalisés qui permettent aux professionnels d'adopter efficacement les outils numériques et les stratégies basées sur les données."
+  },
+  "works": {
+    "title": "Articles scientifiques",
+    "subtitle": "Découvrez mes derniers articles scientifiques",
+    "w1_title": "Impact du stress hydrique sévère sur la sécheresse..",
+    "w1_subtitle": "Journal of Experimental Botany",
+    "w2_title": "Implications de la morphologie racinaire..",
+    "w2_subtitle": "Frontiers in Plant Science"
+  },
+  "projects": {
+    "title": "Portfolio",
+    "subtitle": "Découvrez mes derniers projets",
+    "p1_title": "Application Hidden Diamond Game",
+    "p2_title": "Site personnel de Luis Flor",
+    "p3_title": "Application mobile - PokeAPI"
+  },
+  "testimonials": {
+    "title": "Références",
+    "t1_name": "Francisco Mayol",
+    "t1_text": "\"Il a constamment effectué son travail avec ponctualité, dévouement, professionnalisme et un fort sens des responsabilités. Son attitude joyeuse et serviable a fait de lui un membre apprécié de l'équipe. De plus, il a démontré une approche proactive pour améliorer ses compétences et assumer des responsabilités supplémentaires au sein de l'entreprise. À son départ, il a laissé un vide significatif parmi ses collègues\"",
+    "t1_role": "Fondateur et PDG de Cidesal S.L.",
+    "t2_name": "Dr. José Mariano Escalona",
+    "t2_text": "\"Je déclare par la présente que M. Luis Flor Chacón a rempli de manière très satisfaisante les objectifs et les tâches assignés depuis son incorporation en 2023 à l'INAGEA en tant que chercheur prédoctoral jusqu'à ce jour. Pendant cette période, il a acquis une solide expertise dans les techniques et méthodologies appliquées à la physiologie végétale et a participé activement à des projets de recherche, démontrant une forte capacité à travailler efficacement en équipe. De plus, il a été activement impliqué dans des activités de transfert de connaissances, où il a montré d'excellentes compétences en communication.\"",
+    "t2_role": "Président de l'INAGEA-UIB, Professeur universitaire"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Heureux de recevoir votre message"
+  },
+  "footer": {
+    "copyright": "Luis Flor. Tous droits réservés."
+  }
+}

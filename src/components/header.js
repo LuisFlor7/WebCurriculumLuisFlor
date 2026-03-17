@@ -1,30 +1,96 @@
+import { useState, useRef, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faMoon, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 import logo from '../assets/images/marca.jpg';
 
-function AppHeader() {
+const languages = [
+  { code: 'en', label: 'EN', flag: '🇬🇧' },
+  { code: 'fr', label: 'FR', flag: '🇫🇷' },
+  { code: 'de', label: 'DE', flag: '🇩🇪' },
+  { code: 'it', label: 'IT', flag: '🇮🇹' },
+];
+
+function AppHeader({ darkMode, toggleDarkMode }) {
+  const { t, i18n } = useTranslation();
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef(null);
+
+  const changeLanguage = (code) => {
+    i18n.changeLanguage(code);
+    localStorage.setItem('language', code);
+    setLangOpen(false);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (langRef.current && !langRef.current.contains(e.target)) {
+        setLangOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const currentLang = languages.find(l => l.code === i18n.language) || languages[0];
+
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-          <img 
+          <img
           className="logo"
           src={logo}
-          alt={"logo"}
+          alt="Luis Flor logo"
           />
           Luis Flor</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#works">Scientific Articles</Nav.Link>
-            <Nav.Link href="#projects">Portfolio</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#about">{t('nav.about')}</Nav.Link>
+            <Nav.Link href="#services">{t('nav.services')}</Nav.Link>
+            <Nav.Link href="#works">{t('nav.articles')}</Nav.Link>
+            <Nav.Link href="#projects">{t('nav.portfolio')}</Nav.Link>
+            <Nav.Link href="#contact">{t('nav.contact')}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <div className="header-controls">
+          <div className="lang-selector" ref={langRef}>
+            <button
+              className="lang-toggle"
+              onClick={() => setLangOpen(!langOpen)}
+              aria-label="Select language"
+            >
+              <FontAwesomeIcon icon={faGlobe} />
+              <span className="lang-code">{currentLang.label}</span>
+            </button>
+            {langOpen && (
+              <div className="lang-dropdown">
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    className={`lang-option ${i18n.language === lang.code ? 'active' : ''}`}
+                    onClick={() => changeLanguage(lang.code)}
+                  >
+                    <span className="lang-flag">{lang.flag}</span>
+                    {lang.label}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+          <button
+            className="dark-mode-toggle"
+            onClick={toggleDarkMode}
+            aria-label="Toggle dark mode"
+          >
+            <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
+          </button>
+        </div>
       </Container>
     </Navbar>
   );

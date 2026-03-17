@@ -1,95 +1,57 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLeaf, faLaptop } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation, Trans } from "react-i18next";
+import "../AppAbout.css";
 import img1 from "../assets/images/Lab.jpg";
 import img2 from "../assets/images/Campo.jpg";
 import img3 from "../assets/images/yoylenguajes.jpg";
 
 function AppAbout() {
   const [activeSection, setActiveSection] = useState("scientific");
+  const { t } = useTranslation();
 
   return (
     <section id="about" className="block about-block">
       <Container fluid>
-        <div className="title-holder">
-          <h2>About</h2>
-          <div className="subtitle">A continuous learning</div>
+        <div className="title-holder animate-on-scroll">
+          <h2>{t('about.title')}</h2>
+          <div className="subtitle">{t('about.subtitle')}</div>
         </div>
 
-        {/* 🔹 Botones para cambiar contenido */}
-        <div
-          style={{
-            textAlign: "center",
-            marginBottom: "15px",
-            display: "flex",
-            justifyContent: "center",
-            gap: "15px",
-          }}
-        >
-          <Button
-            variant={
-              activeSection === "scientific" ? "success" : "outline-success"
-            }
+        <div className="profile-toggle-container animate-on-scroll">
+          <button
+            className={`profile-toggle-btn ${activeSection === "scientific" ? "active" : ""}`}
             onClick={() => setActiveSection("scientific")}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "8px",
-              fontWeight: "bold",
-            }}
           >
-            <FontAwesomeIcon icon={faLeaf} /> Scientific Profile
-          </Button>
-
-          <Button
-            variant={activeSection === "tech" ? "primary" : "outline-primary"}
+            <FontAwesomeIcon icon={faLeaf} /> {t('about.scientific_btn')}
+          </button>
+          <button
+            className={`profile-toggle-btn ${activeSection === "tech" ? "active" : ""}`}
             onClick={() => setActiveSection("tech")}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "8px",
-              fontWeight: "bold",
-            }}
           >
-            <FontAwesomeIcon icon={faLaptop} /> Tech Profile
-          </Button>
+            <FontAwesomeIcon icon={faLaptop} /> {t('about.tech_btn')}
+          </button>
         </div>
 
-        {/* 🔹 Contenido dinámico */}
-        <div className="fade-in">
+        <div className="fade-in" key={activeSection}>
           {activeSection === "scientific" && (
             <Row>
               <Col sm={6}>
-                <p>
-                  <strong>Luis Flor</strong> is a biologist from Jerez de la
-                  Frontera, Spain, specialized in{" "}
-                  <strong>grapevine physiology under drought conditions</strong>
-                  .
-                </p>
-                <p>
-                  Since graduating from the University of the Balearic Islands,
-                  he has spent several years conducting research in the field of
-                  grapevine physiology under water-limited conditions. His work
-                  has focused on comparing the physiological responses of
-                  different genotypes, including emblematic Spanish varieties
-                  such as Tempranillo, and Garnacha, grafted onto well-known
-                  commercial rootstocks such as 110R and 140Ru, as well as newly
-                  developed hybrids.
-                </p>
-                <p>
-                  He has published several scientific articles in high-impact
-                  journals, one of which was recognized as a Highly Cited
-                  Article. His research has significantly advanced the
-                  understanding of grapevine hydraulic system vulnerability
-                  under drought conditions.
-                </p>
+                <p><Trans i18nKey="about.sci_p1" components={{ strong: <strong /> }} /></p>
+                <p>{t('about.sci_p2')}</p>
+                <p>{t('about.sci_p3')}</p>
               </Col>
               <Col sm={3}>
-                <Image style={{ height: "360px" }} src={img1} />
+                <div className="img-wrapper">
+                  <img src={img1} alt="Laboratory work" />
+                </div>
               </Col>
               <Col sm={3}>
-                <Image style={{ height: "360px" }} src={img2} />
+                <div className="img-wrapper">
+                  <img src={img2} alt="Field work" />
+                </div>
               </Col>
             </Row>
           )}
@@ -97,32 +59,14 @@ function AppAbout() {
           {activeSection === "tech" && (
             <Row>
               <Col sm={6}>
-                <p>
-                  <strong>Luis Flor</strong> is a full-stack developer and data
-                  analyst from Jerez de la Frontera, Spain, specializing in{" "}
-                  <strong>
-                    front-end and back-end web and app development.
-                  </strong>
-                </p>
-                <p>
-                  Since graduating from 4Geeks Academy, he has dedicated several
-                  years to advancing his expertise in full-stack development and
-                  data analysis. His work has focused on building dynamic and
-                  responsive applications using front-end technologies such as
-                  JavaScript, React, CSS, HTML, and Next.js, as well as back-end
-                  frameworks including SQL, SQLite, and Flask. In addition, Luis
-                  has combined his scientific background with his analytical
-                  skills through the use of RStudio for data analysis and
-                  visualization.{" "}
-                </p>
-                <p>
-                  He is currently expanding his knowledge in artificial
-                  intelligence development, integrating AI-driven tools and
-                  methodologies into his programming and analytical workflows.{" "}
-                </p>
+                <p><Trans i18nKey="about.tech_p1" components={{ strong: <strong /> }} /></p>
+                <p>{t('about.tech_p2')}</p>
+                <p>{t('about.tech_p3')}</p>
               </Col>
               <Col sm={6}>
-                <Image style={{ height: "360px" }} src={img3} />
+                <div className="img-wrapper">
+                  <img src={img3} alt="Programming languages" />
+                </div>
               </Col>
             </Row>
           )}

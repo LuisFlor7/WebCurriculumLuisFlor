@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/silvi/Desktop/Websites/WebPersonal/WebCurriculumLuisFlor -type d ! -path */node_modules/* ! -path */.git/*)",
+      "Bash(npx react-scripts:*)",
+      "Bash(npm run:*)",
+      "Bash(timeout 15 npm start)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
