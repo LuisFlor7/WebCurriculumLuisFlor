@@ -17,9 +17,10 @@ html {
 /* ===== Logo ===== */
 .logo {
   width: 42px;
-  height: 42px;
+  height: 42px !important;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center;
   border: 2px solid var(--primary);
 }
 
@@ -371,6 +372,13 @@ ul,
   height: 16px;
 }
 
+.lang-flag-toggle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .lang-code {
   font-size: 12px;
   letter-spacing: 0.5px;
@@ -422,8 +430,10 @@ ul,
 }
 
 .lang-flag {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
   margin-right: 8px;
 }
 
@@ -442,6 +452,18 @@ ul,
   transition: all var(--transition);
   margin-left: 12px;
   font-size: 16px;
+}
+
+.dark-mode-toggle.dark-active {
+  background: #ffffff;
+  color: #f59e0b;
+  border-color: #e2e8f0;
+}
+
+.dark-mode-toggle.light-active {
+  background: #1e293b;
+  color: #facc15;
+  border-color: #334155;
 }
 
 .dark-mode-toggle:hover {

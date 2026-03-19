@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSun, faMoon, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 
 import logo from '../assets/images/marca.jpg';
@@ -71,7 +71,7 @@ function AppHeader({ darkMode, toggleDarkMode }) {
               onClick={() => setLangOpen(!langOpen)}
               aria-label="Select language"
             >
-              <FontAwesomeIcon icon={faGlobe} />
+              <img src={currentLang.flag} alt={currentLang.label} className="lang-flag-toggle" />
               <span className="lang-code">{currentLang.label}</span>
             </button>
             {langOpen && (
@@ -90,7 +90,7 @@ function AppHeader({ darkMode, toggleDarkMode }) {
             )}
           </div>
           <button
-            className="dark-mode-toggle"
+            className={`dark-mode-toggle ${darkMode ? 'dark-active' : 'light-active'}`}
             onClick={toggleDarkMode}
             aria-label="Toggle dark mode"
           >
