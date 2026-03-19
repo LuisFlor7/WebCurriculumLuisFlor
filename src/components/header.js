@@ -14,11 +14,11 @@ import DeFlag from '../locales/flags/Alemania.png';
 import ItFlag from '../locales/flags/Italia.png';
 
 const languages = [
-  { code: 'en', label: 'EN', flag: 'EnFlag' },
-  { code: 'fr', label: 'FR', flag: 'FrFlag' },
-  { code: 'de', label: 'DE', flag: 'DeFlag' },
-  { code: 'it', label: 'IT', flag: 'ItFlag' },
-  { code: 'es', label: 'ES', flag: 'EsFlag' },
+  { code: 'en', label: 'EN', flag: EnFlag },
+  { code: 'fr', label: 'FR', flag: FrFlag },
+  { code: 'de', label: 'DE', flag: DeFlag },
+  { code: 'it', label: 'IT', flag: ItFlag },
+  { code: 'es', label: 'ES', flag: EsFlag },
 ];
 
 function AppHeader({ darkMode, toggleDarkMode }) {
