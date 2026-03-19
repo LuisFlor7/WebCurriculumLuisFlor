@@ -19,12 +19,12 @@
     "subtitle": "Ein kontinuierliches Lernen",
     "scientific_btn": "Wissenschaftliches Profil",
     "tech_btn": "Technisches Profil",
-    "sci_p1": "<strong>Luis Flor</strong> ist ein Biologe aus Jerez de la Frontera, Spanien, spezialisiert auf <strong>Rebenphysiologie unter Trockenstressbedingungen</strong>.",
+    "sci_p1": "<strong>Luis Flor</strong> ist ein Biologe spezialisiert auf <strong>Rebenphysiologie unter Trockenstressbedingungen</strong>.",
     "sci_p2": "Seit seinem Abschluss an der Universität der Balearen hat er mehrere Jahre der Forschung im Bereich der Rebenphysiologie unter wasserarmen Bedingungen gewidmet. Seine Arbeit konzentrierte sich auf den Vergleich der physiologischen Reaktionen verschiedener Genotypen, darunter emblematische spanische Sorten wie Tempranillo und Garnacha, veredelt auf bekannte kommerzielle Unterlagen wie 110R und 140Ru sowie neu entwickelte Hybriden.",
     "sci_p3": "Er hat mehrere wissenschaftliche Artikel in hochrangigen Fachzeitschriften veröffentlicht, von denen einer als hochzitierter Artikel anerkannt wurde. Seine Forschung hat das Verständnis der Verwundbarkeit des hydraulischen Systems der Weinrebe unter Trockenstressbedingungen erheblich vorangebracht.",
-    "tech_p1": "<strong>Luis Flor</strong> ist ein Full-Stack-Entwickler und Datenanalyst aus Jerez de la Frontera, Spanien, spezialisiert auf <strong>Front-End- und Back-End-Web- und App-Entwicklung.</strong>",
-    "tech_p2": "Seit seinem Abschluss an der 4Geeks Academy hat er mehrere Jahre der Vertiefung seiner Expertise in Full-Stack-Entwicklung und Datenanalyse gewidmet. Seine Arbeit konzentrierte sich auf den Aufbau dynamischer und responsiver Anwendungen mit Front-End-Technologien wie JavaScript, React, CSS, HTML und Next.js sowie Back-End-Frameworks wie SQL, SQLite und Flask. Darüber hinaus hat Luis seinen wissenschaftlichen Hintergrund mit seinen analytischen Fähigkeiten durch die Nutzung von RStudio für Datenanalyse und Visualisierung kombiniert.",
-    "tech_p3": "Er erweitert derzeit sein Wissen in der Entwicklung künstlicher Intelligenz und integriert KI-gesteuerte Werkzeuge und Methoden in seine Programmier- und Analyse-Workflows."
+    "tech_p1": "<strong>Full-Stack-Entwickler und Datenanalyst</strong> spezialisiert auf <strong>Front-End- und Back-End-Web- und App-Entwicklung.</strong>",
+    "tech_p2": "Seit meinem Abschluss an der 4Geeks Academy habe ich meine Fähigkeiten in Full-Stack-Entwicklung und Datenanalyse verfeinert, dynamische und responsive Anwendungen mit Front-End-Technologien wie JavaScript, React, CSS, HTML und Next.js sowie Back-End-Frameworks wie SQL, SQLite und Flask erstellt. Ich kombiniere meinen wissenschaftlichen Hintergrund mit analytischen Fähigkeiten durch RStudio für Datenanalyse und Visualisierung.",
+    "tech_p3": "Ich besitze hohe Kompetenzen in generativer künstlicher Intelligenz, strategischer Integration mehrerer KI-Systeme zur Erzielung optimaler Ergebnisse und Prozessautomatisierung, wobei ich diese Fähigkeiten einsetze, um Effizienz, Produktivität und Qualität in meinen Programmier-, Datenanalyse- und Softwareentwicklungsabläufen zu steigern."
   },
   "services": {
     "title": "Dienstleistungen",

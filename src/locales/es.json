@@ -19,12 +19,12 @@
     "subtitle": "Un aprendizaje continuo",
     "scientific_btn": "Perfil científico",
     "tech_btn": "Perfil tecnológico",
-    "sci_p1": "<strong>Luis Flor</strong> es un biólogo de Jerez de la Frontera, España, especializado en <strong>la fisiología de la vid bajo condiciones de sequía</strong>.",
+    "sci_p1": "<strong>Luis Flor</strong> es un biólogo especializado en <strong>la fisiología de la vid bajo condiciones de sequía</strong>.",
     "sci_p2": "Desde su graduación en la Universidad de las Islas Baleares, ha dedicado varios años a la investigación en el ámbito de la fisiología de la vid en condiciones de limitación hídrica. Su trabajo se ha centrado en comparar las respuestas fisiológicas de diferentes genotipos, incluyendo variedades emblemáticas españolas como Tempranillo y Garnacha, injertadas sobre portainjertos comerciales bien conocidos como 110R y 140Ru, así como nuevos híbridos desarrollados.",
     "sci_p3": "Ha publicado varios artículos científicos en revistas de alto impacto, uno de los cuales fue reconocido como Artículo Altamente Citado. Su investigación ha contribuido significativamente a mejorar la comprensión de la vulnerabilidad del sistema hidráulico de la vid bajo condiciones de sequía.",
-    "tech_p1": "<strong>Luis Flor</strong> es un desarrollador full-stack y analista de datos de Jerez de la Frontera, España, especializado en <strong>el desarrollo web y de aplicaciones tanto en front-end como en back-end.</strong>",
-    "tech_p2": "Desde su graduación en 4Geeks Academy, ha dedicado varios años a perfeccionar sus conocimientos en desarrollo full-stack y análisis de datos. Su trabajo se ha centrado en la creación de aplicaciones dinámicas y responsivas utilizando tecnologías de front-end como JavaScript, React, CSS, HTML y Next.js, así como frameworks de back-end como SQL, SQLite y Flask. Además, Luis ha combinado su formación científica con sus habilidades analíticas mediante el uso de RStudio para el análisis y la visualización de datos.",
-    "tech_p3": "Actualmente está ampliando sus conocimientos en el desarrollo de inteligencia artificial, integrando herramientas y metodologías basadas en IA en sus flujos de trabajo de programación y análisis."
+    "tech_p1": "<strong>Desarrollador Full-Stack y Analista de datos</strong> especializado en <strong>el desarrollo web y de aplicaciones tanto en front-end como en back-end.</strong>",
+    "tech_p2": "Desde mi graduación en 4Geeks Academy, he perfeccionado mis conocimientos en desarrollo Full-Stack y análisis de datos, creando aplicaciones dinámicas y responsivas con tecnologías de front-end como JavaScript, React, CSS, HTML y Next.js, y frameworks de back-end como SQL, SQLite y Flask. Combino mi formación científica con habilidades analíticas mediante RStudio para el análisis y visualización de datos.",
+    "tech_p3": "Poseo altas competencias en inteligencia artificial generativa, integración estratégica de múltiples IA para lograr resultados óptimos y automatización de procesos, aplicando estas capacidades para mejorar la eficiencia, productividad y calidad en mis flujos de trabajo de programación, análisis de datos y desarrollo de software."
   },
   "services": {
     "title": "Servicios",
