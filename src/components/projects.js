@@ -28,7 +28,7 @@ const projectsData = [
   {
     id: 4,
     link: 'https://github.com/LuisFlor7/WebCurriculumLuisFlor',
-    image: require('../assets/images/web.jpg'),
+    image: require('../assets/images/Web.jpeg'),
     titleKey: 'projects.p3_title',
     techs: ['Javascript', 'React', 'Bootstrap']
   },
