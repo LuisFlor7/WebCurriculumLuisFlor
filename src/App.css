@@ -19,8 +19,8 @@ html {
   width: 42px;
   height: 42px !important;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
+  object-fit: contain;
+  background: #fff;
   border: 2px solid var(--primary);
 }
 
