@@ -13,7 +13,7 @@ const projectsData = [
   },
   {
     id: 2,
-    link: 'https://visual-spend-cloud.luisflorchacon7.workers.dev',
+    link: 'https://finence.app/',
     image: require('../assets/images/Finence.jpeg'),
     titleKey: 'projects.p5_title',
     techs: ['Generative IA', 'React', 'Supabase']

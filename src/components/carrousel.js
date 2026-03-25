@@ -16,6 +16,7 @@ function AppCarrousel() {
 
   return (
     <section id="home" className="hero-block">
+       <h1 className="visually-hidden">Luis Flor - Biologist, Grapevine Researcher & Full-Stack Developer</h1>
        <Carousel fade interval={5000}>
           {
             heroData.map(hero => {
