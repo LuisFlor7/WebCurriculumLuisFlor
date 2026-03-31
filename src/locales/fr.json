@@ -14,18 +14,18 @@
     "slide3_title": "Développeur Full-Stack",
     "slide3_desc": "Services de développement d'applications et de sites web. Expert en React, Javascript et plus encore"
   },
-  "about": {
-    "title": "À propos",
-    "subtitle": "Un apprentissage continu",
+"about": {
+    "title": "À propos de moi",
+    "subtitle": "Apprentissage et technologie en action",
     "scientific_btn": "Profil scientifique",
-    "tech_btn": "Profil technique",
-    "sci_p1": "<strong>Luis Flor</strong> est un biologiste spécialisé dans la <strong>physiologie de la vigne en conditions de sécheresse</strong>.",
-    "sci_p2": "Depuis l'obtention de son diplôme à l'Université des Îles Baléares, il a consacré plusieurs années à la recherche dans le domaine de la physiologie de la vigne en conditions hydriques limitées. Ses travaux se sont concentrés sur la comparaison des réponses physiologiques de différents génotypes, incluant des variétés espagnoles emblématiques telles que le Tempranillo et le Garnacha, greffés sur des porte-greffes commerciaux reconnus tels que 110R et 140Ru, ainsi que sur des hybrides nouvellement développés.",
-    "sci_p3": "Il a publié plusieurs articles scientifiques dans des revues à fort impact, dont l'un a été reconnu comme article hautement cité. Ses recherches ont considérablement avancé la compréhension de la vulnérabilité du système hydraulique de la vigne en conditions de sécheresse.",
-    "tech_p1": "<strong>Développeur full-stack et analyste de données</strong> spécialisé dans le <strong>développement web et d'applications front-end et back-end.</strong>",
-    "tech_p2": "Depuis ma graduation à 4Geeks Academy, j’ai perfectionné mes compétences en développement full-stack et analyse de données, en créant des applications dynamiques et réactives utilisant des technologies front-end comme JavaScript, React, CSS, HTML et Next.js, ainsi que des frameworks back-end tels que SQL, SQLite et Flask. Je combine ma formation scientifique avec mes compétences analytiques grâce à RStudio pour l’analyse et la visualisation des données.",
-    "tech_p3": "Je possède de solides compétences en intelligence artificielle générative, intégration stratégique de plusieurs IA pour obtenir des résultats optimaux et automatisation des processus, appliquant ces capacités pour améliorer l’efficacité, la productivité et la qualité dans mes flux de travail de programmation, d’analyse de données et de développement logiciel."
-  },
+    "tech_btn": "Profil technologique",
+    "sci_p1": "<strong>Luis Flor</strong> est un biologiste spécialisé dans <strong>l'analyse des données de la physiologie végétale et l'adaptation au stress hydrique</strong>.",
+    "sci_p2": "Depuis son diplôme à l'Université des îles Baléares, il a développé des méthodologies d'analyse de données pour évaluer les réponses physiologiques de différents génotypes de vigne sous des conditions de sécheresse. Son travail comprend la comparaison de variétés espagnoles traditionnelles telles que Tempranillo et Garnacha greffées sur des porte-greffes commerciaux, ainsi que l'étude de nouveaux hybrides développés en laboratoire.",
+    "sci_p3": "Il a utilisé des outils statistiques et analytiques, notamment R et RStudio, pour traiter, visualiser et interpréter de grands volumes de données expérimentales, générant des résultats reproductibles et contribuant à une meilleure compréhension de la vulnérabilité du système hydraulique de la vigne. Ses recherches ont été reconnues dans des revues scientifiques à fort impact.",
+    "tech_p1": "<strong>Développeur Full-Stack et spécialiste en IA</strong> avec expérience dans <strong>les applications web, les pipelines de données et les modèles génératifs</strong>.",
+    "tech_p2": "Depuis ma formation à 4Geeks Academy, j'ai créé des applications dynamiques et responsives avec des technologies front-end telles que JavaScript, React, CSS, HTML et Next.js, et des frameworks back-end comme Python, Flask, Node.js et SQL. De plus, j'ai développé des projets d'IA générative et de LLM, incluant des systèmes de traitement du langage naturel et l'analyse de données structurées et non structurées.",
+    "tech_p3": "J'ai de l'expérience dans l'intégration de plusieurs modèles d'IA, l'automatisation des processus et la création de solutions transformant les données en insights exploitables. Mes compétences incluent les pipelines de données, les bases de données relationnelles et vectorielles, la génération de contenu automatisée et l'analyse de données pour soutenir les décisions d'entreprise, en appliquant l'IA pour améliorer l'efficacité, la productivité et la qualité des projets technologiques et analytiques."
+},
   "services": {
     "title": "Services",
     "subtitle": "Découvrez mes services",

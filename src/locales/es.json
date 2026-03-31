@@ -14,18 +14,18 @@
     "slide3_title": "Desarrollador Full-Stack",
     "slide3_desc": "Servicios de desarrollo web y de aplicaciones. Experto en React, Javascript y más"
   },
-  "about": {
+"about": {
     "title": "Sobre mí",
-    "subtitle": "Un aprendizaje continuo",
+    "subtitle": "Aprendizaje y tecnología en acción",
     "scientific_btn": "Perfil científico",
     "tech_btn": "Perfil tecnológico",
-    "sci_p1": "<strong>Luis Flor</strong> es un biólogo especializado en <strong>la fisiología de la vid bajo condiciones de sequía</strong>.",
-    "sci_p2": "Desde su graduación en la Universidad de las Islas Baleares, ha dedicado varios años a la investigación en el ámbito de la fisiología de la vid en condiciones de limitación hídrica. Su trabajo se ha centrado en comparar las respuestas fisiológicas de diferentes genotipos, incluyendo variedades emblemáticas españolas como Tempranillo y Garnacha, injertadas sobre portainjertos comerciales bien conocidos como 110R y 140Ru, así como nuevos híbridos desarrollados.",
-    "sci_p3": "Ha publicado varios artículos científicos en revistas de alto impacto, uno de los cuales fue reconocido como Artículo Altamente Citado. Su investigación ha contribuido significativamente a mejorar la comprensión de la vulnerabilidad del sistema hidráulico de la vid bajo condiciones de sequía.",
-    "tech_p1": "<strong>Desarrollador Full-Stack y Analista de datos</strong> especializado en <strong>el desarrollo web y de aplicaciones tanto en front-end como en back-end.</strong>",
-    "tech_p2": "Desde mi graduación en 4Geeks Academy, he perfeccionado mis conocimientos en desarrollo Full-Stack y análisis de datos, creando aplicaciones dinámicas y responsivas con tecnologías de front-end como JavaScript, React, CSS, HTML y Next.js, y frameworks de back-end como SQL, SQLite y Flask. Combino mi formación científica con habilidades analíticas mediante RStudio para el análisis y visualización de datos.",
-    "tech_p3": "Poseo altas competencias en inteligencia artificial generativa, integración estratégica de múltiples IA para lograr resultados óptimos y automatización de procesos, aplicando estas capacidades para mejorar la eficiencia, productividad y calidad en mis flujos de trabajo de programación, análisis de datos y desarrollo de software."
-  },
+    "sci_p1": "<strong>Luis Flor</strong> es un biólogo especializado en <strong>análisis de datos de fisiología vegetal y adaptación al estrés hídrico</strong>.",
+    "sci_p2": "Desde su graduación en la Universidad de las Islas Baleares, ha desarrollado metodologías de análisis de datos para evaluar respuestas fisiológicas de diferentes genotipos de vid bajo condiciones de sequía. Su trabajo incluye la comparación de variedades tradicionales españolas como Tempranillo y Garnacha injertadas sobre portainjertos comerciales, así como el estudio de nuevos híbridos desarrollados en el laboratorio.",
+    "sci_p3": "Ha aplicado herramientas estadísticas y analíticas, incluyendo R y RStudio, para procesar, visualizar e interpretar grandes volúmenes de datos experimentales, generando resultados reproducibles y contribuyendo a una mejor comprensión de la vulnerabilidad del sistema hidráulico de la vid. Su investigación ha sido reconocida en revistas científicas de alto impacto.",
+    "tech_p1": "<strong>Desarrollador Full-Stack y especialista en Inteligencia Artificial</strong> con experiencia en <strong>aplicaciones web, pipelines de datos y modelos generativos</strong>.",
+    "tech_p2": "Desde mi formación en 4Geeks Academy, he creado aplicaciones dinámicas y responsivas con tecnologías de front-end como JavaScript, React, CSS, HTML y Next.js, y frameworks de back-end como Python, Flask, Node.js y SQL. Además, he desarrollado proyectos de IA generativa y LLMs, incluyendo sistemas de procesamiento de lenguaje natural y análisis de datos estructurados y no estructurados.",
+    "tech_p3": "Poseo experiencia en integrar múltiples modelos de IA, automatizar procesos y generar soluciones que convierten datos en insights prácticos. Mis competencias incluyen pipelines de datos, bases de datos relacionales y vectoriales, generación de contenido automatizada y análisis de datos para soporte a decisiones empresariales, aplicando IA para mejorar la eficiencia, productividad y calidad de proyectos tecnológicos y analíticos."
+},
   "services": {
     "title": "Servicios",
     "subtitle": "Descubre mis servicios",

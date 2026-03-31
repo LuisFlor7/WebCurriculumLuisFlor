@@ -14,18 +14,18 @@
     "slide3_title": "Sviluppatore Full-Stack",
     "slide3_desc": "Servizi di sviluppo app e web. Esperto in React, Javascript e altro"
   },
-  "about": {
+"about": {
     "title": "Chi sono",
-    "subtitle": "Un apprendimento continuo",
+    "subtitle": "Apprendimento e tecnologia in azione",
     "scientific_btn": "Profilo scientifico",
-    "tech_btn": "Profilo tecnico",
-    "sci_p1": "<strong>Luis Flor</strong> è un biologo di Jerez de la Frontera, Spagna, specializzato nella <strong>fisiologia della vite in condizioni di siccità</strong>.",
-    "sci_p2": "Dopo la laurea presso l'Università delle Isole Baleari, ha dedicato diversi anni alla ricerca nel campo della fisiologia della vite in condizioni di carenza idrica. Il suo lavoro si è concentrato sul confronto delle risposte fisiologiche di diversi genotipi, tra cui emblematiche varietà spagnole come Tempranillo e Garnacha, innestate su portinnesti commerciali noti come 110R e 140Ru, nonché su ibridi di nuova sviluppo.",
-    "sci_p3": "Ha pubblicato diversi articoli scientifici in riviste ad alto impatto, uno dei quali è stato riconosciuto come articolo altamente citato. La sua ricerca ha significativamente avanzato la comprensione della vulnerabilità del sistema idraulico della vite in condizioni di siccità.",
-    "tech_p1": "<strong>Sviluppatore</strong> full-stack e analista di dati di Jerez de la Frontera, Spagna, specializzato nello <strong>sviluppo web e app front-end e back-end.</strong>",
-    "tech_p2": "Dalla mia laurea presso 4Geeks Academy, ho perfezionato le mie competenze nello sviluppo full-stack e nell’analisi dei dati, creando applicazioni dinamiche e responsive con tecnologie front-end come JavaScript, React, CSS, HTML e Next.js e framework back-end come SQL, SQLite e Flask. Combino la mia formazione scientifica con capacità analitiche tramite RStudio per l’analisi e la visualizzazione dei dati.",
-    "tech_p3": "Ho elevate competenze nell’uso dell’intelligenza artificiale generativa, nell’integrazione strategica di più IA per ottenere risultati ottimali e nell’automazione dei processi, applicando queste capacità per aumentare efficienza, produttività e qualità nei miei flussi di lavoro di programmazione, analisi dei dati e sviluppo software."
-  },
+    "tech_btn": "Profilo tecnologico",
+    "sci_p1": "<strong>Luis Flor</strong> è un biologo specializzato in <strong>analisi dei dati di fisiologia vegetale e adattamento allo stress idrico</strong>.",
+    "sci_p2": "Dalla laurea all'Università delle Isole Baleari, ha sviluppato metodologie di analisi dei dati per valutare le risposte fisiologiche di diversi genotipi di vite in condizioni di siccità. Il suo lavoro comprende il confronto di varietà tradizionali spagnole come Tempranillo e Garnacha innestate su portinnesti commerciali, oltre allo studio di nuovi ibridi sviluppati in laboratorio.",
+    "sci_p3": "Ha utilizzato strumenti statistici e analitici, tra cui R e RStudio, per elaborare, visualizzare e interpretare grandi quantità di dati sperimentali, generando risultati riproducibili e contribuendo a una migliore comprensione della vulnerabilità del sistema idraulico della vite. Le sue ricerche sono state riconosciute su riviste scientifiche di alto impatto.",
+    "tech_p1": "<strong>Sviluppatore Full-Stack e specialista in IA</strong> con esperienza in <strong>applicazioni web, pipeline di dati e modelli generativi</strong>.",
+    "tech_p2": "Dalla formazione alla 4Geeks Academy, ho creato applicazioni dinamiche e responsive con tecnologie front-end come JavaScript, React, CSS, HTML e Next.js, e framework back-end come Python, Flask, Node.js e SQL. Inoltre, ho sviluppato progetti di IA generativa e LLM, inclusi sistemi di elaborazione del linguaggio naturale e analisi di dati strutturati e non strutturati.",
+    "tech_p3": "Ho esperienza nell'integrare più modelli di IA, automatizzare processi e creare soluzioni che trasformano i dati in insight azionabili. Le mie competenze includono pipeline di dati, database relazionali e vettoriali, generazione automatica di contenuti e analisi dei dati per supportare le decisioni aziendali, applicando l'IA per migliorare efficienza, produttività e qualità nei progetti tecnologici e analitici."
+},
   "services": {
     "title": "Servizi",
     "subtitle": "Scopri i miei servizi",

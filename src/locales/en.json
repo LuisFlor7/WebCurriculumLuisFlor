@@ -14,18 +14,18 @@
     "slide3_title": "Full-Stack Developer",
     "slide3_desc": "App and Web development services. Expert in React, Javascript, and more"
   },
-  "about": {
-    "title": "About",
-    "subtitle": "A continuous learning",
-    "scientific_btn": "Scientific Profile",
-    "tech_btn": "Tech Profile",
-    "sci_p1": "<strong>Luis Flor</strong> is a biologist specialized in <strong>grapevine physiology under drought conditions</strong>.",
-    "sci_p2": "Since graduating from the University of the Balearic Islands, he has spent several years conducting research in the field of grapevine physiology under water-limited conditions. His work has focused on comparing the physiological responses of different genotypes, including emblematic Spanish varieties such as Tempranillo, and Garnacha, grafted onto well-known commercial rootstocks such as 110R and 140Ru, as well as newly developed hybrids.",
-    "sci_p3": "He has published several scientific articles in high-impact journals, one of which was recognized as a Highly Cited Article. His research has significantly advanced the understanding of grapevine hydraulic system vulnerability under drought conditions.",
-    "tech_p1": "<strong>Full-stack and Data analyst</strong> specializing in <strong>front-end and back-end web and app development.</strong>",
-    "tech_p2": "Since graduating from 4Geeks Academy, I have refined my full-stack development and data analysis skills, creating dynamic and responsive applications using front-end technologies such as JavaScript, React, CSS, HTML, and Next.js, as well as back-end frameworks like SQL, SQLite, and Flask. I combine my scientific background with analytical skills using RStudio for data analysis and visualization.",
-    "tech_p3": "I have strong expertise in generative artificial intelligence, strategic integration of multiple AI systems to achieve optimal results, and process automation, applying these skills to enhance efficiency, productivity, and quality in programming, data analysis, and software development workflows."
-  },
+"about": {
+  "title": "About Me",
+  "subtitle": "Learning and Technology in Action",
+  "scientific_btn": "Scientific Profile",
+  "tech_btn": "Tech Profile",
+  "sci_p1": "<strong>Luis Flor</strong> is a biologist specialized in <strong>data analysis of plant physiology and adaptation to water stress</strong>.",
+  "sci_p2": "Since graduating from the University of the Balearic Islands, he has developed data analysis methodologies to evaluate physiological responses of different grapevine genotypes under drought conditions. His work includes comparing traditional Spanish varieties like Tempranillo and Garnacha grafted onto commercial rootstocks, as well as studying newly developed hybrids in the lab.",
+  "sci_p3": "He has applied statistical and analytical tools, including R and RStudio, to process, visualize, and interpret large volumes of experimental data, generating reproducible results and contributing to a better understanding of the vulnerability of the grapevine hydraulic system. His research has been recognized in high-impact scientific journals.",
+  "tech_p1": "<strong>Full-Stack Developer and AI Specialist</strong> with experience in <strong>web applications, data pipelines, and generative models</strong>.",
+  "tech_p2": "Since completing my training at 4Geeks Academy, I have built dynamic and responsive applications using front-end technologies such as JavaScript, React, CSS, HTML, and Next.js, and back-end frameworks such as Python, Flask, Node.js, and SQL. Additionally, I have developed generative AI and LLM projects, including natural language processing systems and structured and unstructured data analysis.",
+  "tech_p3": "I have experience integrating multiple AI models, automating processes, and creating solutions that transform data into actionable insights. My skills include data pipelines, relational and vector databases, automated content generation, and data analysis for business decision support, applying AI to enhance efficiency, productivity, and quality in technological and analytical projects."
+},
   "services": {
     "title": "Services",
     "subtitle": "Discover my services",

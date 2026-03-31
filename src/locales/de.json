@@ -14,18 +14,18 @@
     "slide3_title": "Full-Stack-Entwickler",
     "slide3_desc": "App- und Webentwicklungsdienste. Experte für React, Javascript und mehr"
   },
-  "about": {
+"about": {
     "title": "Über mich",
-    "subtitle": "Ein kontinuierliches Lernen",
+    "subtitle": "Lernen und Technologie in Aktion",
     "scientific_btn": "Wissenschaftliches Profil",
     "tech_btn": "Technisches Profil",
-    "sci_p1": "<strong>Luis Flor</strong> ist ein Biologe spezialisiert auf <strong>Rebenphysiologie unter Trockenstressbedingungen</strong>.",
-    "sci_p2": "Seit seinem Abschluss an der Universität der Balearen hat er mehrere Jahre der Forschung im Bereich der Rebenphysiologie unter wasserarmen Bedingungen gewidmet. Seine Arbeit konzentrierte sich auf den Vergleich der physiologischen Reaktionen verschiedener Genotypen, darunter emblematische spanische Sorten wie Tempranillo und Garnacha, veredelt auf bekannte kommerzielle Unterlagen wie 110R und 140Ru sowie neu entwickelte Hybriden.",
-    "sci_p3": "Er hat mehrere wissenschaftliche Artikel in hochrangigen Fachzeitschriften veröffentlicht, von denen einer als hochzitierter Artikel anerkannt wurde. Seine Forschung hat das Verständnis der Verwundbarkeit des hydraulischen Systems der Weinrebe unter Trockenstressbedingungen erheblich vorangebracht.",
-    "tech_p1": "<strong>Full-Stack-Entwickler und Datenanalyst</strong> spezialisiert auf <strong>Front-End- und Back-End-Web- und App-Entwicklung.</strong>",
-    "tech_p2": "Seit meinem Abschluss an der 4Geeks Academy habe ich meine Fähigkeiten in Full-Stack-Entwicklung und Datenanalyse verfeinert, dynamische und responsive Anwendungen mit Front-End-Technologien wie JavaScript, React, CSS, HTML und Next.js sowie Back-End-Frameworks wie SQL, SQLite und Flask erstellt. Ich kombiniere meinen wissenschaftlichen Hintergrund mit analytischen Fähigkeiten durch RStudio für Datenanalyse und Visualisierung.",
-    "tech_p3": "Ich besitze hohe Kompetenzen in generativer künstlicher Intelligenz, strategischer Integration mehrerer KI-Systeme zur Erzielung optimaler Ergebnisse und Prozessautomatisierung, wobei ich diese Fähigkeiten einsetze, um Effizienz, Produktivität und Qualität in meinen Programmier-, Datenanalyse- und Softwareentwicklungsabläufen zu steigern."
-  },
+    "sci_p1": "<strong>Luis Flor</strong> ist ein Biologe, spezialisiert auf <strong>Datenanalyse der Pflanzenphysiologie und Anpassung an Wasserstress</strong>.",
+    "sci_p2": "Seit seinem Abschluss an der Universität der Balearischen Inseln hat er Methoden zur Datenanalyse entwickelt, um physiologische Reaktionen verschiedener Rebsorten unter Trockenheitsbedingungen zu bewerten. Seine Arbeit umfasst den Vergleich traditioneller spanischer Sorten wie Tempranillo und Garnacha, die auf kommerziellen Unterlagsreben gepfropft sind, sowie die Untersuchung neu entwickelter Hybriden im Labor.",
+    "sci_p3": "Er hat statistische und analytische Werkzeuge, einschließlich R und RStudio, eingesetzt, um große Mengen experimenteller Daten zu verarbeiten, zu visualisieren und zu interpretieren, reproduzierbare Ergebnisse zu erzielen und das Verständnis der Verwundbarkeit des hydraulischen Systems der Rebe zu verbessern. Seine Forschung wurde in hochrangigen wissenschaftlichen Zeitschriften anerkannt.",
+    "tech_p1": "<strong>Full-Stack-Entwickler und KI-Spezialist</strong> mit Erfahrung in <strong>Webanwendungen, Datenpipelines und generativen Modellen</strong>.",
+    "tech_p2": "Seit meiner Ausbildung an der 4Geeks Academy habe ich dynamische und responsive Anwendungen mit Front-End-Technologien wie JavaScript, React, CSS, HTML und Next.js sowie Back-End-Frameworks wie Python, Flask, Node.js und SQL entwickelt. Darüber hinaus habe ich Projekte mit generativer KI und LLMs entwickelt, einschließlich Systemen zur Verarbeitung natürlicher Sprache und Analyse strukturierter und unstrukturierter Daten.",
+    "tech_p3": "Ich habe Erfahrung in der Integration mehrerer KI-Modelle, der Automatisierung von Prozessen und der Erstellung von Lösungen, die Daten in umsetzbare Erkenntnisse verwandeln. Meine Kompetenzen umfassen Datenpipelines, relationale und Vektor-Datenbanken, automatisierte Inhaltserstellung und Datenanalyse zur Unterstützung von Geschäftsentscheidungen, wobei ich KI einsetze, um Effizienz, Produktivität und Qualität in technologischen und analytischen Projekten zu steigern."
+},
   "services": {
     "title": "Dienstleistungen",
     "subtitle": "Entdecken Sie meine Dienstleistungen",
