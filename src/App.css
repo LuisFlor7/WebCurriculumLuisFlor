@@ -648,23 +648,26 @@ ul,
   color: #fff;
 }
 
-/* About images */
-.about-block .img-wrapper {
+/* About text panel — full width, no images */
+.about-text-panel {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 35px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  height: 360px;
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--primary);
 }
 
-.about-block .img-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
+.about-text-panel .about-lead {
+  font-size: 17px;
+  line-height: 1.9;
+  margin-bottom: 18px;
 }
 
-.about-block .img-wrapper:hover img {
-  transform: scale(1.05);
+.about-text-panel p:last-child {
+  margin-bottom: 0;
 }
 
 /* ===== Services Section ===== */
@@ -1080,9 +1083,8 @@ ul,
     height: 300px;
   }
 
-  .about-block .img-wrapper {
-    height: 250px;
-    margin-bottom: 20px;
+  .about-text-panel {
+    padding: 22px 20px;
   }
 
   .profile-toggle-btn {
