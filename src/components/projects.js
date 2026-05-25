@@ -20,7 +20,7 @@ const projectsData = [
   },
   {
     id: 3,
-    link: 'https://github.com/LuisFlor7/HiddenDiamondGameApp',
+    link: 'https://hiddendiamond.es/',
     image: require('../assets/images/hiddendiamond.jpg'),
     titleKey: 'projects.p2_title',
     techs: ['Javascript', 'React', 'SQL']
